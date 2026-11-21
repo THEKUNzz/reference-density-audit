@@ -1,0 +1,30 @@
+{
+  "all_fail_fraction": 0.15,
+  "grad_grpo_norm": 0.0,
+  "grad_vcpo_norm": 2256.0,
+  "meta": {
+    "dataset": "mbpp",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e1_zero_gradient_formal",
+    "extra": {
+      "all_fail_fraction": 0.15,
+      "group_size": 4,
+      "n_all_fail": 6,
+      "n_harness_error": 0,
+      "n_tasks": 40,
+      "n_test_failed": 55,
+      "n_timeout": 1,
+      "note": "real sampling + real mbpp test execution"
+    },
+    "model": "Qwen/Qwen3.5-4B",
+    "seed": 1,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "5.17.0"
+  },
+  "n_all_fail": 6,
+  "n_groups": 40,
+  "n_harness_error": 0,
+  "n_test_failed": 55,
+  "n_timeout": 1
+}

@@ -1,0 +1,1351 @@
+{
+  "fit_per_char": {
+    "intercept": -5.061588416808523,
+    "n": 164,
+    "r2": 0.4918820310460871,
+    "slope": -0.05971321856832694,
+    "slope_stderr": 0.004768313171700363
+  },
+  "fit_per_token": {
+    "intercept": -3.6327629314246535,
+    "n": 164,
+    "r2": 0.5435375230471425,
+    "slope": -0.20971879836627302,
+    "slope_stderr": 0.015099676022930919
+  },
+  "meta": {
+    "dataset": "humaneval",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e3_decay",
+    "extra": {
+      "n_failed": 0,
+      "n_tasks": 164,
+      "n_usable": 164,
+      "note": "log10(c)=L*log10(p_bar) is an identity; R2 tests whether one slope fits",
+      "quantity": "pi_theta(certificate completion | prompt), teacher-forced",
+      "token_length_range": [
+        6,
+        265
+      ]
+    },
+    "model": "Qwen/Qwen3.5-0.8B",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "5.17.0"
+  },
+  "points": [
+    {
+      "log10_c": -16.47713039029469,
+      "logprob_mean_per_token": -0.6898180874911222,
+      "logprob_sum": -37.93999481201172,
+      "n_chars": 252,
+      "n_tokens": 55,
+      "task_id": "HumanEval/0"
+    },
+    {
+      "log10_c": -16.49960686595685,
+      "logprob_mean_per_token": -0.3916675135032418,
+      "logprob_sum": -37.99174880981445,
+      "n_chars": 419,
+      "n_tokens": 97,
+      "task_id": "HumanEval/1"
+    },
+    {
+      "log10_c": -3.215653558695854,
+      "logprob_mean_per_token": -0.8227017720540365,
+      "logprob_sum": -7.404315948486328,
+      "n_chars": 24,
+      "n_tokens": 9,
+      "task_id": "HumanEval/2"
+    },
+    {
+      "log10_c": -5.056457366343527,
+      "logprob_mean_per_token": -0.3424389222088982,
+      "logprob_sum": -11.642923355102539,
+      "n_chars": 131,
+      "n_tokens": 34,
+      "task_id": "HumanEval/3"
+    },
+    {
+      "log10_c": -3.0199442483573202,
+      "logprob_mean_per_token": -0.2397820209634715,
+      "logprob_sum": -6.953678607940674,
+      "n_chars": 101,
+      "n_tokens": 29,
+      "task_id": "HumanEval/4"
+    },
+    {
+      "log10_c": -9.566227103910178,
+      "logprob_mean_per_token": -0.44953167195222815,
+      "logprob_sum": -22.02705192565918,
+      "n_chars": 192,
+      "n_tokens": 49,
+      "task_id": "HumanEval/5"
+    },
+    {
+      "log10_c": -24.292643483124795,
+      "logprob_mean_per_token": -0.6284930197040687,
+      "logprob_sum": -55.93587875366211,
+      "n_chars": 336,
+      "n_tokens": 89,
+      "task_id": "HumanEval/6"
+    },
+    {
+      "log10_c": -3.2003423190651556,
+      "logprob_mean_per_token": -0.5263614654541016,
+      "logprob_sum": -7.369060516357422,
+      "n_chars": 50,
+      "n_tokens": 14,
+      "task_id": "HumanEval/7"
+    },
+    {
+      "log10_c": -8.940035175819581,
+      "logprob_mean_per_token": -0.5020778469923066,
+      "logprob_sum": -20.58519172668457,
+      "n_chars": 140,
+      "n_tokens": 41,
+      "task_id": "HumanEval/8"
+    },
+    {
+      "log10_c": -12.533834273163587,
+      "logprob_mean_per_token": -0.4810036659240723,
+      "logprob_sum": -28.860219955444336,
+      "n_chars": 237,
+      "n_tokens": 60,
+      "task_id": "HumanEval/9"
+    },
+    {
+      "log10_c": -21.44231921661712,
+      "logprob_mean_per_token": -0.8816565104893276,
+      "logprob_sum": -49.372764587402344,
+      "n_chars": 215,
+      "n_tokens": 56,
+      "task_id": "HumanEval/10"
+    },
+    {
+      "log10_c": -11.944652238789716,
+      "logprob_mean_per_token": -0.5289149651160607,
+      "logprob_sum": -27.503578186035156,
+      "n_chars": 151,
+      "n_tokens": 52,
+      "task_id": "HumanEval/11"
+    },
+    {
+      "log10_c": -8.646776561194102,
+      "logprob_mean_per_token": -0.4630218328431595,
+      "logprob_sum": -19.90993881225586,
+      "n_chars": 155,
+      "n_tokens": 43,
+      "task_id": "HumanEval/12"
+    },
+    {
+      "log10_c": -2.7973868400264474,
+      "logprob_mean_per_token": -0.32206106185913086,
+      "logprob_sum": -6.441221237182617,
+      "n_chars": 50,
+      "n_tokens": 20,
+      "task_id": "HumanEval/13"
+    },
+    {
+      "log10_c": -6.799625514113935,
+      "logprob_mean_per_token": -0.5591684409550258,
+      "logprob_sum": -15.656716346740723,
+      "n_chars": 104,
+      "n_tokens": 28,
+      "task_id": "HumanEval/14"
+    },
+    {
+      "log10_c": -5.274280541699971,
+      "logprob_mean_per_token": -0.6391831448203639,
+      "logprob_sum": -12.144479751586914,
+      "n_chars": 52,
+      "n_tokens": 19,
+      "task_id": "HumanEval/15"
+    },
+    {
+      "log10_c": -3.054291407828598,
+      "logprob_mean_per_token": -0.879095733165741,
+      "logprob_sum": -7.032765865325928,
+      "n_chars": 36,
+      "n_tokens": 8,
+      "task_id": "HumanEval/16"
+    },
+    {
+      "log10_c": -11.359264880284067,
+      "logprob_mean_per_token": -0.6082714879235556,
+      "logprob_sum": -26.15567398071289,
+      "n_chars": 105,
+      "n_tokens": 43,
+      "task_id": "HumanEval/17"
+    },
+    {
+      "log10_c": -7.143046993592044,
+      "logprob_mean_per_token": -0.3499462452340633,
+      "logprob_sum": -16.447473526000977,
+      "n_chars": 162,
+      "n_tokens": 47,
+      "task_id": "HumanEval/18"
+    },
+    {
+      "log10_c": -18.80630757398596,
+      "logprob_mean_per_token": -0.37654889977496603,
+      "logprob_sum": -43.303123474121094,
+      "n_chars": 307,
+      "n_tokens": 115,
+      "task_id": "HumanEval/19"
+    },
+    {
+      "log10_c": -26.52980246915237,
+      "logprob_mean_per_token": -0.5176875227588719,
+      "logprob_sum": -61.087127685546875,
+      "n_chars": 575,
+      "n_tokens": 118,
+      "task_id": "HumanEval/20"
+    },
+    {
+      "log10_c": -6.707765945664113,
+      "logprob_mean_per_token": -0.4064526808889289,
+      "logprob_sum": -15.445201873779297,
+      "n_chars": 135,
+      "n_tokens": 38,
+      "task_id": "HumanEval/21"
+    },
+    {
+      "log10_c": -2.381928852463824,
+      "logprob_mean_per_token": -0.36563959121704104,
+      "logprob_sum": -5.484593868255615,
+      "n_chars": 53,
+      "n_tokens": 15,
+      "task_id": "HumanEval/22"
+    },
+    {
+      "log10_c": -1.1534900346996193,
+      "logprob_mean_per_token": -0.4426681598027547,
+      "logprob_sum": -2.6560089588165283,
+      "n_chars": 23,
+      "n_tokens": 6,
+      "task_id": "HumanEval/23"
+    },
+    {
+      "log10_c": -4.813924066890375,
+      "logprob_mean_per_token": -0.4819334693576979,
+      "logprob_sum": -11.08446979522705,
+      "n_chars": 77,
+      "n_tokens": 23,
+      "task_id": "HumanEval/24"
+    },
+    {
+      "log10_c": -19.76047679159067,
+      "logprob_mean_per_token": -0.5833356319329678,
+      "logprob_sum": -45.500179290771484,
+      "n_chars": 235,
+      "n_tokens": 78,
+      "task_id": "HumanEval/25"
+    },
+    {
+      "log10_c": -12.35328937724343,
+      "logprob_mean_per_token": -0.9808448265338766,
+      "logprob_sum": -28.444499969482422,
+      "n_chars": 105,
+      "n_tokens": 29,
+      "task_id": "HumanEval/26"
+    },
+    {
+      "log10_c": -3.984760882452132,
+      "logprob_mean_per_token": -1.3107501438685827,
+      "logprob_sum": -9.175251007080078,
+      "n_chars": 29,
+      "n_tokens": 7,
+      "task_id": "HumanEval/27"
+    },
+    {
+      "log10_c": -2.0567470404407175,
+      "logprob_mean_per_token": -0.6765478679112026,
+      "logprob_sum": -4.735835075378418,
+      "n_chars": 28,
+      "n_tokens": 7,
+      "task_id": "HumanEval/28"
+    },
+    {
+      "log10_c": -3.391853339517394,
+      "logprob_mean_per_token": -0.5578593526567731,
+      "logprob_sum": -7.810030937194824,
+      "n_chars": 56,
+      "n_tokens": 14,
+      "task_id": "HumanEval/29"
+    },
+    {
+      "log10_c": -4.5832337014883,
+      "logprob_mean_per_token": -0.7035523732503255,
+      "logprob_sum": -10.553285598754883,
+      "n_chars": 35,
+      "n_tokens": 15,
+      "task_id": "HumanEval/30"
+    },
+    {
+      "log10_c": -8.419796794035141,
+      "logprob_mean_per_token": -0.44062042236328125,
+      "logprob_sum": -19.387298583984375,
+      "n_chars": 129,
+      "n_tokens": 44,
+      "task_id": "HumanEval/31"
+    },
+    {
+      "log10_c": -39.8067114796259,
+      "logprob_mean_per_token": -0.8332576404918324,
+      "logprob_sum": -91.65834045410156,
+      "n_chars": 314,
+      "n_tokens": 110,
+      "task_id": "HumanEval/32"
+    },
+    {
+      "log10_c": -7.013926126901154,
+      "logprob_mean_per_token": -0.6460064697265625,
+      "logprob_sum": -16.150161743164062,
+      "n_chars": 57,
+      "n_tokens": 25,
+      "task_id": "HumanEval/33"
+    },
+    {
+      "log10_c": -1.8995653699135515,
+      "logprob_mean_per_token": -0.546738862991333,
+      "logprob_sum": -4.373910903930664,
+      "n_chars": 32,
+      "n_tokens": 8,
+      "task_id": "HumanEval/34"
+    },
+    {
+      "log10_c": -6.792462348959939,
+      "logprob_mean_per_token": -0.5045233080464024,
+      "logprob_sum": -15.640222549438477,
+      "n_chars": 78,
+      "n_tokens": 31,
+      "task_id": "HumanEval/35"
+    },
+    {
+      "log10_c": -23.25356166261684,
+      "logprob_mean_per_token": -0.6777633473842959,
+      "logprob_sum": -53.543304443359375,
+      "n_chars": 204,
+      "n_tokens": 79,
+      "task_id": "HumanEval/36"
+    },
+    {
+      "log10_c": -22.971377272327153,
+      "logprob_mean_per_token": -0.6781224470872146,
+      "logprob_sum": -52.893550872802734,
+      "n_chars": 205,
+      "n_tokens": 78,
+      "task_id": "HumanEval/37"
+    },
+    {
+      "log10_c": -5.513669834984635,
+      "logprob_mean_per_token": -1.0579744974772136,
+      "logprob_sum": -12.695693969726562,
+      "n_chars": 43,
+      "n_tokens": 12,
+      "task_id": "HumanEval/38"
+    },
+    {
+      "log10_c": -31.549635953338782,
+      "logprob_mean_per_token": -0.5906156214272104,
+      "logprob_sum": -72.64572143554688,
+      "n_chars": 373,
+      "n_tokens": 123,
+      "task_id": "HumanEval/39"
+    },
+    {
+      "log10_c": -3.6599284274574955,
+      "logprob_mean_per_token": -0.13376661330934556,
+      "logprob_sum": -8.42729663848877,
+      "n_chars": 203,
+      "n_tokens": 63,
+      "task_id": "HumanEval/40"
+    },
+    {
+      "log10_c": -5.146904596361714,
+      "logprob_mean_per_token": -1.9751976331075032,
+      "logprob_sum": -11.85118579864502,
+      "n_chars": 16,
+      "n_tokens": 6,
+      "task_id": "HumanEval/41"
+    },
+    {
+      "log10_c": -6.726252668800779,
+      "logprob_mean_per_token": -1.106269223349435,
+      "logprob_sum": -15.48776912689209,
+      "n_chars": 32,
+      "n_tokens": 14,
+      "task_id": "HumanEval/42"
+    },
+    {
+      "log10_c": -8.549909196856627,
+      "logprob_mean_per_token": -0.4279759448507558,
+      "logprob_sum": -19.686893463134766,
+      "n_chars": 146,
+      "n_tokens": 46,
+      "task_id": "HumanEval/43"
+    },
+    {
+      "log10_c": -7.738333974734918,
+      "logprob_mean_per_token": -0.5399446198434541,
+      "logprob_sum": -17.818172454833984,
+      "n_chars": 98,
+      "n_tokens": 33,
+      "task_id": "HumanEval/44"
+    },
+    {
+      "log10_c": -3.4914509487057015,
+      "logprob_mean_per_token": -0.7308511734008789,
+      "logprob_sum": -8.039362907409668,
+      "n_chars": 23,
+      "n_tokens": 11,
+      "task_id": "HumanEval/45"
+    },
+    {
+      "log10_c": -18.848884814681586,
+      "logprob_mean_per_token": -0.5358168048623168,
+      "logprob_sum": -43.401161193847656,
+      "n_chars": 223,
+      "n_tokens": 81,
+      "task_id": "HumanEval/46"
+    },
+    {
+      "log10_c": -5.4029598973151645,
+      "logprob_mean_per_token": -0.19438710808753967,
+      "logprob_sum": -12.440774917602539,
+      "n_chars": 141,
+      "n_tokens": 64,
+      "task_id": "HumanEval/47"
+    },
+    {
+      "log10_c": -5.331862946336857,
+      "logprob_mean_per_token": -0.36109023935654583,
+      "logprob_sum": -12.277068138122559,
+      "n_chars": 119,
+      "n_tokens": 34,
+      "task_id": "HumanEval/48"
+    },
+    {
+      "log10_c": -10.039113629913983,
+      "logprob_mean_per_token": -0.7971004617625269,
+      "logprob_sum": -23.11591339111328,
+      "n_chars": 78,
+      "n_tokens": 29,
+      "task_id": "HumanEval/49"
+    },
+    {
+      "log10_c": -3.571011990061984,
+      "logprob_mean_per_token": -0.24183996985940373,
+      "logprob_sum": -8.222558975219727,
+      "n_chars": 82,
+      "n_tokens": 34,
+      "task_id": "HumanEval/50"
+    },
+    {
+      "log10_c": -10.110174547624387,
+      "logprob_mean_per_token": -0.7054405212402344,
+      "logprob_sum": -23.279537200927734,
+      "n_chars": 84,
+      "n_tokens": 33,
+      "task_id": "HumanEval/51"
+    },
+    {
+      "log10_c": -4.924657198387463,
+      "logprob_mean_per_token": -0.5154291933233087,
+      "logprob_sum": -11.339442253112793,
+      "n_chars": 76,
+      "n_tokens": 22,
+      "task_id": "HumanEval/52"
+    },
+    {
+      "log10_c": -1.7200544631120391,
+      "logprob_mean_per_token": -0.6600952943166097,
+      "logprob_sum": -3.960571765899658,
+      "n_chars": 17,
+      "n_tokens": 6,
+      "task_id": "HumanEval/53"
+    },
+    {
+      "log10_c": -2.0909390911898114,
+      "logprob_mean_per_token": -0.40121376514434814,
+      "logprob_sum": -4.814565181732178,
+      "n_chars": 30,
+      "n_tokens": 12,
+      "task_id": "HumanEval/54"
+    },
+    {
+      "log10_c": -4.134978192062013,
+      "logprob_mean_per_token": -0.22669378916422525,
+      "logprob_sum": -9.521139144897461,
+      "n_chars": 99,
+      "n_tokens": 42,
+      "task_id": "HumanEval/55"
+    },
+    {
+      "log10_c": -9.016602970886881,
+      "logprob_mean_per_token": -0.37748173800381746,
+      "logprob_sum": -20.76149559020996,
+      "n_chars": 187,
+      "n_tokens": 55,
+      "task_id": "HumanEval/56"
+    },
+    {
+      "log10_c": -10.072120931664927,
+      "logprob_mean_per_token": -0.9276766204833984,
+      "logprob_sum": -23.19191551208496,
+      "n_chars": 92,
+      "n_tokens": 25,
+      "task_id": "HumanEval/57"
+    },
+    {
+      "log10_c": -8.912685511305039,
+      "logprob_mean_per_token": -0.4366429105718085,
+      "logprob_sum": -20.522216796875,
+      "n_chars": 138,
+      "n_tokens": 47,
+      "task_id": "HumanEval/58"
+    },
+    {
+      "log10_c": -21.164781875360557,
+      "logprob_mean_per_token": -0.49225970952197756,
+      "logprob_sum": -48.73371124267578,
+      "n_chars": 316,
+      "n_tokens": 99,
+      "task_id": "HumanEval/59"
+    },
+    {
+      "log10_c": -4.394225957716649,
+      "logprob_mean_per_token": -1.011807918548584,
+      "logprob_sum": -10.11807918548584,
+      "n_chars": 29,
+      "n_tokens": 10,
+      "task_id": "HumanEval/60"
+    },
+    {
+      "log10_c": -8.617275669168151,
+      "logprob_mean_per_token": -0.3607638272372159,
+      "logprob_sum": -19.842010498046875,
+      "n_chars": 187,
+      "n_tokens": 55,
+      "task_id": "HumanEval/61"
+    },
+    {
+      "log10_c": -10.427004717915908,
+      "logprob_mean_per_token": -1.3338369793362088,
+      "logprob_sum": -24.009065628051758,
+      "n_chars": 51,
+      "n_tokens": 18,
+      "task_id": "HumanEval/62"
+    },
+    {
+      "log10_c": -5.948315537706077,
+      "logprob_mean_per_token": -0.2107154259314904,
+      "logprob_sum": -13.696502685546875,
+      "n_chars": 153,
+      "n_tokens": 65,
+      "task_id": "HumanEval/63"
+    },
+    {
+      "log10_c": -18.39089783786829,
+      "logprob_mean_per_token": -0.6721683683849516,
+      "logprob_sum": -42.34660720825195,
+      "n_chars": 148,
+      "n_tokens": 63,
+      "task_id": "HumanEval/64"
+    },
+    {
+      "log10_c": -8.189185536152257,
+      "logprob_mean_per_token": -0.419028811984592,
+      "logprob_sum": -18.85629653930664,
+      "n_chars": 126,
+      "n_tokens": 45,
+      "task_id": "HumanEval/65"
+    },
+    {
+      "log10_c": -9.089584834534506,
+      "logprob_mean_per_token": -0.6976514180501302,
+      "logprob_sum": -20.929542541503906,
+      "n_chars": 90,
+      "n_tokens": 30,
+      "task_id": "HumanEval/66"
+    },
+    {
+      "log10_c": -16.076334422277256,
+      "logprob_mean_per_token": -0.9741349471242804,
+      "logprob_sum": -37.017127990722656,
+      "n_chars": 123,
+      "n_tokens": 38,
+      "task_id": "HumanEval/67"
+    },
+    {
+      "log10_c": -19.01116871310884,
+      "logprob_mean_per_token": -0.7959060668945312,
+      "logprob_sum": -43.77483367919922,
+      "n_chars": 161,
+      "n_tokens": 55,
+      "task_id": "HumanEval/68"
+    },
+    {
+      "log10_c": -21.9510277810233,
+      "logprob_mean_per_token": -0.702001518673367,
+      "logprob_sum": -50.54410934448242,
+      "n_chars": 181,
+      "n_tokens": 72,
+      "task_id": "HumanEval/69"
+    },
+    {
+      "log10_c": -25.84429067023113,
+      "logprob_mean_per_token": -1.352469964460893,
+      "logprob_sum": -59.5086784362793,
+      "n_chars": 166,
+      "n_tokens": 44,
+      "task_id": "HumanEval/70"
+    },
+    {
+      "log10_c": -16.45265427535161,
+      "logprob_mean_per_token": -0.4676992157359182,
+      "logprob_sum": -37.883636474609375,
+      "n_chars": 186,
+      "n_tokens": 81,
+      "task_id": "HumanEval/71"
+    },
+    {
+      "log10_c": -12.099384889625897,
+      "logprob_mean_per_token": -0.4643310546875,
+      "logprob_sum": -27.85986328125,
+      "n_chars": 171,
+      "n_tokens": 60,
+      "task_id": "HumanEval/72"
+    },
+    {
+      "log10_c": -8.123665458189189,
+      "logprob_mean_per_token": -0.40663980401080585,
+      "logprob_sum": -18.70543098449707,
+      "n_chars": 127,
+      "n_tokens": 46,
+      "task_id": "HumanEval/73"
+    },
+    {
+      "log10_c": -12.998634436839167,
+      "logprob_mean_per_token": -0.42155580117668906,
+      "logprob_sum": -29.930461883544922,
+      "n_chars": 183,
+      "n_tokens": 71,
+      "task_id": "HumanEval/74"
+    },
+    {
+      "log10_c": -20.82961118588145,
+      "logprob_mean_per_token": -0.41346510525407465,
+      "logprob_sum": -47.961952209472656,
+      "n_chars": 401,
+      "n_tokens": 116,
+      "task_id": "HumanEval/75"
+    },
+    {
+      "log10_c": -19.471289522062836,
+      "logprob_mean_per_token": -0.9539212977632563,
+      "logprob_sum": -44.83430099487305,
+      "n_chars": 133,
+      "n_tokens": 47,
+      "task_id": "HumanEval/76"
+    },
+    {
+      "log10_c": -10.910547979358414,
+      "logprob_mean_per_token": -0.966248658987192,
+      "logprob_sum": -25.122465133666992,
+      "n_chars": 62,
+      "n_tokens": 26,
+      "task_id": "HumanEval/77"
+    },
+    {
+      "log10_c": -14.043514714251197,
+      "logprob_mean_per_token": -0.5480743666826668,
+      "logprob_sum": -32.336387634277344,
+      "n_chars": 160,
+      "n_tokens": 59,
+      "task_id": "HumanEval/78"
+    },
+    {
+      "log10_c": -3.7994914866816347,
+      "logprob_mean_per_token": -0.5467907786369324,
+      "logprob_sum": -8.748652458190918,
+      "n_chars": 42,
+      "n_tokens": 16,
+      "task_id": "HumanEval/79"
+    },
+    {
+      "log10_c": -14.384538531799471,
+      "logprob_mean_per_token": -0.47316605704171316,
+      "logprob_sum": -33.12162399291992,
+      "n_chars": 178,
+      "n_tokens": 70,
+      "task_id": "HumanEval/80"
+    },
+    {
+      "log10_c": -13.823667049084245,
+      "logprob_mean_per_token": -0.12011384784050708,
+      "logprob_sum": -31.830169677734375,
+      "n_chars": 864,
+      "n_tokens": 265,
+      "task_id": "HumanEval/81"
+    },
+    {
+      "log10_c": -8.865204432770543,
+      "logprob_mean_per_token": -0.38514882213664503,
+      "logprob_sum": -20.412887573242188,
+      "n_chars": 156,
+      "n_tokens": 53,
+      "task_id": "HumanEval/82"
+    },
+    {
+      "log10_c": -13.35806504165393,
+      "logprob_mean_per_token": -1.0985029084341866,
+      "logprob_sum": -30.758081436157227,
+      "n_chars": 56,
+      "n_tokens": 28,
+      "task_id": "HumanEval/83"
+    },
+    {
+      "log10_c": -9.464754108088895,
+      "logprob_mean_per_token": -1.2819648069493912,
+      "logprob_sum": -21.79340171813965,
+      "n_chars": 48,
+      "n_tokens": 17,
+      "task_id": "HumanEval/84"
+    },
+    {
+      "log10_c": -7.553039314259339,
+      "logprob_mean_per_token": -0.5797171910603841,
+      "logprob_sum": -17.391515731811523,
+      "n_chars": 73,
+      "n_tokens": 30,
+      "task_id": "HumanEval/85"
+    },
+    {
+      "log10_c": -10.727111310145096,
+      "logprob_mean_per_token": -1.1761945996965681,
+      "logprob_sum": -24.70008659362793,
+      "n_chars": 70,
+      "n_tokens": 21,
+      "task_id": "HumanEval/86"
+    },
+    {
+      "log10_c": -16.722759651559123,
+      "logprob_mean_per_token": -0.6526368997864804,
+      "logprob_sum": -38.505577087402344,
+      "n_chars": 181,
+      "n_tokens": 59,
+      "task_id": "HumanEval/87"
+    },
+    {
+      "log10_c": -16.002548229821937,
+      "logprob_mean_per_token": -1.1165826970880681,
+      "logprob_sum": -36.84722900390625,
+      "n_chars": 93,
+      "n_tokens": 33,
+      "task_id": "HumanEval/88"
+    },
+    {
+      "log10_c": -18.04691680729894,
+      "logprob_mean_per_token": -0.716457958879142,
+      "logprob_sum": -41.554561614990234,
+      "n_chars": 179,
+      "n_tokens": 58,
+      "task_id": "HumanEval/89"
+    },
+    {
+      "log10_c": -9.35253325822042,
+      "logprob_mean_per_token": -0.8972918192545573,
+      "logprob_sum": -21.535003662109375,
+      "n_chars": 71,
+      "n_tokens": 24,
+      "task_id": "HumanEval/90"
+    },
+    {
+      "log10_c": -22.2264594540727,
+      "logprob_mean_per_token": -1.3467977423416941,
+      "logprob_sum": -51.178314208984375,
+      "n_chars": 119,
+      "n_tokens": 38,
+      "task_id": "HumanEval/91"
+    },
+    {
+      "log10_c": -10.60764238914653,
+      "logprob_mean_per_token": -0.46084904220868955,
+      "logprob_sum": -24.424999237060547,
+      "n_chars": 182,
+      "n_tokens": 53,
+      "task_id": "HumanEval/92"
+    },
+    {
+      "log10_c": -23.804746408898318,
+      "logprob_mean_per_token": -0.8564445972442627,
+      "logprob_sum": -54.81245422363281,
+      "n_chars": 204,
+      "n_tokens": 64,
+      "task_id": "HumanEval/93"
+    },
+    {
+      "log10_c": -30.6306633691418,
+      "logprob_mean_per_token": -0.6591561575916326,
+      "logprob_sum": -70.52970886230469,
+      "n_chars": 338,
+      "n_tokens": 107,
+      "task_id": "HumanEval/94"
+    },
+    {
+      "log10_c": -50.3825369073888,
+      "logprob_mean_per_token": -0.7389176970074891,
+      "logprob_sum": -116.01007843017578,
+      "n_chars": 699,
+      "n_tokens": 157,
+      "task_id": "HumanEval/95"
+    },
+    {
+      "log10_c": -3.598817247618988,
+      "logprob_mean_per_token": -0.12186151392319623,
+      "logprob_sum": -8.286582946777344,
+      "n_chars": 247,
+      "n_tokens": 68,
+      "task_id": "HumanEval/96"
+    },
+    {
+      "log10_c": -4.511233433759436,
+      "logprob_mean_per_token": -0.5770832697550455,
+      "logprob_sum": -10.38749885559082,
+      "n_chars": 37,
+      "n_tokens": 18,
+      "task_id": "HumanEval/97"
+    },
+    {
+      "log10_c": -6.8119911376373645,
+      "logprob_mean_per_token": -0.3825655913934475,
+      "logprob_sum": -15.685189247131348,
+      "n_chars": 114,
+      "n_tokens": 41,
+      "task_id": "HumanEval/98"
+    },
+    {
+      "log10_c": -52.65795411206945,
+      "logprob_mean_per_token": -1.010411834716797,
+      "logprob_sum": -121.24942016601562,
+      "n_chars": 401,
+      "n_tokens": 120,
+      "task_id": "HumanEval/99"
+    },
+    {
+      "log10_c": -5.219415956649123,
+      "logprob_mean_per_token": -0.8012099583943685,
+      "logprob_sum": -12.018149375915527,
+      "n_chars": 39,
+      "n_tokens": 15,
+      "task_id": "HumanEval/100"
+    },
+    {
+      "log10_c": -19.689482141959168,
+      "logprob_mean_per_token": -0.6974878164438101,
+      "logprob_sum": -45.336708068847656,
+      "n_chars": 232,
+      "n_tokens": 65,
+      "task_id": "HumanEval/101"
+    },
+    {
+      "log10_c": -9.61327578322983,
+      "logprob_mean_per_token": -0.4812040328979492,
+      "logprob_sum": -22.135385513305664,
+      "n_chars": 118,
+      "n_tokens": 46,
+      "task_id": "HumanEval/102"
+    },
+    {
+      "log10_c": -12.635891256430208,
+      "logprob_mean_per_token": -0.5489663178066038,
+      "logprob_sum": -29.09521484375,
+      "n_chars": 146,
+      "n_tokens": 53,
+      "task_id": "HumanEval/103"
+    },
+    {
+      "log10_c": -18.008595633970902,
+      "logprob_mean_per_token": -0.8130651735791973,
+      "logprob_sum": -41.46632385253906,
+      "n_chars": 173,
+      "n_tokens": 51,
+      "task_id": "HumanEval/104"
+    },
+    {
+      "log10_c": -22.792597592358796,
+      "logprob_mean_per_token": -0.4068363988122275,
+      "logprob_sum": -52.481895446777344,
+      "n_chars": 378,
+      "n_tokens": 129,
+      "task_id": "HumanEval/105"
+    },
+    {
+      "log10_c": -19.3738274017172,
+      "logprob_mean_per_token": -0.4902185293344351,
+      "logprob_sum": -44.609886169433594,
+      "n_chars": 256,
+      "n_tokens": 91,
+      "task_id": "HumanEval/106"
+    },
+    {
+      "log10_c": -22.068913723287054,
+      "logprob_mean_per_token": -0.44575045401589913,
+      "logprob_sum": -50.8155517578125,
+      "n_chars": 377,
+      "n_tokens": 114,
+      "task_id": "HumanEval/107"
+    },
+    {
+      "log10_c": -45.4016723670017,
+      "logprob_mean_per_token": -1.174620381901773,
+      "logprob_sum": -104.54121398925781,
+      "n_chars": 239,
+      "n_tokens": 89,
+      "task_id": "HumanEval/108"
+    },
+    {
+      "log10_c": -42.03881918133904,
+      "logprob_mean_per_token": -1.1126202111956718,
+      "logprob_sum": -96.79795837402344,
+      "n_chars": 292,
+      "n_tokens": 87,
+      "task_id": "HumanEval/109"
+    },
+    {
+      "log10_c": -14.391090788101074,
+      "logprob_mean_per_token": -0.41420888900756836,
+      "logprob_sum": -33.13671112060547,
+      "n_chars": 218,
+      "n_tokens": 80,
+      "task_id": "HumanEval/110"
+    },
+    {
+      "log10_c": -44.503282648112204,
+      "logprob_mean_per_token": -1.1915418048237645,
+      "logprob_sum": -102.47259521484375,
+      "n_chars": 269,
+      "n_tokens": 86,
+      "task_id": "HumanEval/111"
+    },
+    {
+      "log10_c": -11.343325750605757,
+      "logprob_mean_per_token": -0.8706324259440105,
+      "logprob_sum": -26.118972778320312,
+      "n_chars": 83,
+      "n_tokens": 30,
+      "task_id": "HumanEval/112"
+    },
+    {
+      "log10_c": -28.527997105951247,
+      "logprob_mean_per_token": -0.8998375461526114,
+      "logprob_sum": -65.68814086914062,
+      "n_chars": 215,
+      "n_tokens": 73,
+      "task_id": "HumanEval/113"
+    },
+    {
+      "log10_c": -33.533582953173365,
+      "logprob_mean_per_token": -0.8875164163523707,
+      "logprob_sum": -77.21392822265625,
+      "n_chars": 240,
+      "n_tokens": 87,
+      "task_id": "HumanEval/114"
+    },
+    {
+      "log10_c": -10.0885156543857,
+      "logprob_mean_per_token": -1.3664509268367993,
+      "logprob_sum": -23.229665756225586,
+      "n_chars": 63,
+      "n_tokens": 17,
+      "task_id": "HumanEval/115"
+    },
+    {
+      "log10_c": -8.285643695102502,
+      "logprob_mean_per_token": -0.9539199829101562,
+      "logprob_sum": -19.078399658203125,
+      "n_chars": 68,
+      "n_tokens": 20,
+      "task_id": "HumanEval/116"
+    },
+    {
+      "log10_c": -22.22040752176682,
+      "logprob_mean_per_token": -0.6090997514270601,
+      "logprob_sum": -51.16437911987305,
+      "n_chars": 283,
+      "n_tokens": 84,
+      "task_id": "HumanEval/117"
+    },
+    {
+      "log10_c": -27.483628749448748,
+      "logprob_mean_per_token": -0.5859573505542897,
+      "logprob_sum": -63.28339385986328,
+      "n_chars": 292,
+      "n_tokens": 108,
+      "task_id": "HumanEval/118"
+    },
+    {
+      "log10_c": -26.97048850726588,
+      "logprob_mean_per_token": -0.5307849981845953,
+      "logprob_sum": -62.101844787597656,
+      "n_chars": 357,
+      "n_tokens": 117,
+      "task_id": "HumanEval/119"
+    },
+    {
+      "log10_c": -9.500783234237849,
+      "logprob_mean_per_token": -0.7543573050663389,
+      "logprob_sum": -21.876361846923828,
+      "n_chars": 82,
+      "n_tokens": 29,
+      "task_id": "HumanEval/120"
+    },
+    {
+      "log10_c": -7.927468042031979,
+      "logprob_mean_per_token": -0.6760618421766493,
+      "logprob_sum": -18.25366973876953,
+      "n_chars": 72,
+      "n_tokens": 27,
+      "task_id": "HumanEval/121"
+    },
+    {
+      "log10_c": -6.634627937855572,
+      "logprob_mean_per_token": -0.7274664470127651,
+      "logprob_sum": -15.276795387268066,
+      "n_chars": 64,
+      "n_tokens": 21,
+      "task_id": "HumanEval/122"
+    },
+    {
+      "log10_c": -27.763768769504253,
+      "logprob_mean_per_token": -0.6590560834432385,
+      "logprob_sum": -63.92844009399414,
+      "n_chars": 280,
+      "n_tokens": 97,
+      "task_id": "HumanEval/123"
+    },
+    {
+      "log10_c": -17.313691991567037,
+      "logprob_mean_per_token": -0.2460879573115596,
+      "logprob_sum": -39.866249084472656,
+      "n_chars": 491,
+      "n_tokens": 162,
+      "task_id": "HumanEval/124"
+    },
+    {
+      "log10_c": -19.867985152698104,
+      "logprob_mean_per_token": -0.7753851939055879,
+      "logprob_sum": -45.74772644042969,
+      "n_chars": 191,
+      "n_tokens": 59,
+      "task_id": "HumanEval/125"
+    },
+    {
+      "log10_c": -38.758840855153345,
+      "logprob_mean_per_token": -1.0258106801701687,
+      "logprob_sum": -89.24552917480469,
+      "n_chars": 278,
+      "n_tokens": 87,
+      "task_id": "HumanEval/126"
+    },
+    {
+      "log10_c": -23.71538721790063,
+      "logprob_mean_per_token": -0.43685357666015623,
+      "logprob_sum": -54.60669708251953,
+      "n_chars": 411,
+      "n_tokens": 125,
+      "task_id": "HumanEval/127"
+    },
+    {
+      "log10_c": -22.585339205481574,
+      "logprob_mean_per_token": -1.000089718745305,
+      "logprob_sum": -52.00466537475586,
+      "n_chars": 151,
+      "n_tokens": 52,
+      "task_id": "HumanEval/128"
+    },
+    {
+      "log10_c": -41.468350424096585,
+      "logprob_mean_per_token": -0.5133570189117104,
+      "logprob_sum": -95.48440551757812,
+      "n_chars": 633,
+      "n_tokens": 186,
+      "task_id": "HumanEval/129"
+    },
+    {
+      "log10_c": -22.600884040090406,
+      "logprob_mean_per_token": -0.5052471716427108,
+      "logprob_sum": -52.04045867919922,
+      "n_chars": 247,
+      "n_tokens": 103,
+      "task_id": "HumanEval/130"
+    },
+    {
+      "log10_c": -21.737725745350062,
+      "logprob_mean_per_token": -0.6585916218004728,
+      "logprob_sum": -50.05296325683594,
+      "n_chars": 255,
+      "n_tokens": 76,
+      "task_id": "HumanEval/131"
+    },
+    {
+      "log10_c": -44.39238301806687,
+      "logprob_mean_per_token": -0.7802842700754413,
+      "logprob_sum": -102.21723937988281,
+      "n_chars": 476,
+      "n_tokens": 131,
+      "task_id": "HumanEval/132"
+    },
+    {
+      "log10_c": -11.693792769397808,
+      "logprob_mean_per_token": -0.8975317637125652,
+      "logprob_sum": -26.925952911376953,
+      "n_chars": 104,
+      "n_tokens": 30,
+      "task_id": "HumanEval/133"
+    },
+    {
+      "log10_c": -25.64793669573751,
+      "logprob_mean_per_token": -1.4764139175415039,
+      "logprob_sum": -59.056556701660156,
+      "n_chars": 117,
+      "n_tokens": 40,
+      "task_id": "HumanEval/134"
+    },
+    {
+      "log10_c": -15.080732745039986,
+      "logprob_mean_per_token": -0.8469431807355183,
+      "logprob_sum": -34.72467041015625,
+      "n_chars": 107,
+      "n_tokens": 41,
+      "task_id": "HumanEval/135"
+    },
+    {
+      "log10_c": -10.315738956734632,
+      "logprob_mean_per_token": -0.43986790268509474,
+      "logprob_sum": -23.752866744995117,
+      "n_chars": 183,
+      "n_tokens": 54,
+      "task_id": "HumanEval/136"
+    },
+    {
+      "log10_c": -26.99199912567802,
+      "logprob_mean_per_token": -0.8071607119077212,
+      "logprob_sum": -62.15137481689453,
+      "n_chars": 261,
+      "n_tokens": 77,
+      "task_id": "HumanEval/137"
+    },
+    {
+      "log10_c": -6.707510813560334,
+      "logprob_mean_per_token": -1.103186743600028,
+      "logprob_sum": -15.44461441040039,
+      "n_chars": 31,
+      "n_tokens": 14,
+      "task_id": "HumanEval/138"
+    },
+    {
+      "log10_c": -13.632443052248759,
+      "logprob_mean_per_token": -0.6975524478488498,
+      "logprob_sum": -31.389860153198242,
+      "n_chars": 139,
+      "n_tokens": 45,
+      "task_id": "HumanEval/139"
+    },
+    {
+      "log10_c": -43.61547594142363,
+      "logprob_mean_per_token": -0.6237785386743012,
+      "logprob_sum": -100.4283447265625,
+      "n_chars": 516,
+      "n_tokens": 161,
+      "task_id": "HumanEval/140"
+    },
+    {
+      "log10_c": -36.24091230232068,
+      "logprob_mean_per_token": -0.6274269505550987,
+      "logprob_sum": -83.44778442382812,
+      "n_chars": 351,
+      "n_tokens": 133,
+      "task_id": "HumanEval/141"
+    },
+    {
+      "log10_c": -14.800360786708318,
+      "logprob_mean_per_token": -0.4425855859533533,
+      "logprob_sum": -34.0790901184082,
+      "n_chars": 250,
+      "n_tokens": 77,
+      "task_id": "HumanEval/142"
+    },
+    {
+      "log10_c": -33.35913223545939,
+      "logprob_mean_per_token": -0.7681224060058593,
+      "logprob_sum": -76.81224060058594,
+      "n_chars": 310,
+      "n_tokens": 100,
+      "task_id": "HumanEval/143"
+    },
+    {
+      "log10_c": -17.017652602680563,
+      "logprob_mean_per_token": -0.6219776698521206,
+      "logprob_sum": -39.184593200683594,
+      "n_chars": 195,
+      "n_tokens": 63,
+      "task_id": "HumanEval/144"
+    },
+    {
+      "log10_c": -40.973139010661114,
+      "logprob_mean_per_token": -1.2413702513042248,
+      "logprob_sum": -94.3441390991211,
+      "n_chars": 203,
+      "n_tokens": 76,
+      "task_id": "HumanEval/145"
+    },
+    {
+      "log10_c": -22.270183132533354,
+      "logprob_mean_per_token": -0.5894136976921696,
+      "logprob_sum": -51.27899169921875,
+      "n_chars": 295,
+      "n_tokens": 87,
+      "task_id": "HumanEval/146"
+    },
+    {
+      "log10_c": -21.756738057187533,
+      "logprob_mean_per_token": -0.5218410491943359,
+      "logprob_sum": -50.09674072265625,
+      "n_chars": 256,
+      "n_tokens": 96,
+      "task_id": "HumanEval/147"
+    },
+    {
+      "log10_c": -21.950022162925936,
+      "logprob_mean_per_token": -0.3584524384627106,
+      "logprob_sum": -50.54179382324219,
+      "n_chars": 479,
+      "n_tokens": 141,
+      "task_id": "HumanEval/148"
+    },
+    {
+      "log10_c": -13.544984098413636,
+      "logprob_mean_per_token": -0.6780104015184485,
+      "logprob_sum": -31.188478469848633,
+      "n_chars": 142,
+      "n_tokens": 46,
+      "task_id": "HumanEval/149"
+    },
+    {
+      "log10_c": -8.084045430514642,
+      "logprob_mean_per_token": -0.387795885403951,
+      "logprob_sum": -18.61420249938965,
+      "n_chars": 147,
+      "n_tokens": 48,
+      "task_id": "HumanEval/150"
+    },
+    {
+      "log10_c": -13.3540168903839,
+      "logprob_mean_per_token": -1.0249586741129557,
+      "logprob_sum": -30.748760223388672,
+      "n_chars": 78,
+      "n_tokens": 30,
+      "task_id": "HumanEval/151"
+    },
+    {
+      "log10_c": -3.104858300874795,
+      "logprob_mean_per_token": -0.4205412023207721,
+      "logprob_sum": -7.149200439453125,
+      "n_chars": 49,
+      "n_tokens": 17,
+      "task_id": "HumanEval/152"
+    },
+    {
+      "log10_c": -35.717546895562975,
+      "logprob_mean_per_token": -0.6003116134309421,
+      "logprob_sum": -82.24269104003906,
+      "n_chars": 437,
+      "n_tokens": 137,
+      "task_id": "HumanEval/153"
+    },
+    {
+      "log10_c": -21.32998488266352,
+      "logprob_mean_per_token": -0.7921629874936996,
+      "logprob_sum": -49.114105224609375,
+      "n_chars": 182,
+      "n_tokens": 62,
+      "task_id": "HumanEval/154"
+    },
+    {
+      "log10_c": -12.659278918177293,
+      "logprob_mean_per_token": -0.4940519817804886,
+      "logprob_sum": -29.149066925048828,
+      "n_chars": 191,
+      "n_tokens": 59,
+      "task_id": "HumanEval/155"
+    },
+    {
+      "log10_c": -64.03025889357978,
+      "logprob_mean_per_token": -0.8775899977911086,
+      "logprob_sum": -147.43511962890625,
+      "n_chars": 382,
+      "n_tokens": 168,
+      "task_id": "HumanEval/156"
+    },
+    {
+      "log10_c": -8.88198516705093,
+      "logprob_mean_per_token": -0.705225056615369,
+      "logprob_sum": -20.451526641845703,
+      "n_chars": 68,
+      "n_tokens": 29,
+      "task_id": "HumanEval/157"
+    },
+    {
+      "log10_c": -11.921074056315781,
+      "logprob_mean_per_token": -1.372464370727539,
+      "logprob_sum": -27.44928741455078,
+      "n_chars": 63,
+      "n_tokens": 20,
+      "task_id": "HumanEval/158"
+    },
+    {
+      "log10_c": -15.0028644389242,
+      "logprob_mean_per_token": -0.9870106288364955,
+      "logprob_sum": -34.545372009277344,
+      "n_chars": 128,
+      "n_tokens": 35,
+      "task_id": "HumanEval/159"
+    },
+    {
+      "log10_c": -28.510429438233878,
+      "logprob_mean_per_token": -1.4919929504394531,
+      "logprob_sum": -65.64768981933594,
+      "n_chars": 149,
+      "n_tokens": 44,
+      "task_id": "HumanEval/160"
+    },
+    {
+      "log10_c": -38.07352951717079,
+      "logprob_mean_per_token": -0.8766754150390625,
+      "logprob_sum": -87.66754150390625,
+      "n_chars": 270,
+      "n_tokens": 100,
+      "task_id": "HumanEval/161"
+    },
+    {
+      "log10_c": -6.860981885844386,
+      "logprob_mean_per_token": -0.7522854577927363,
+      "logprob_sum": -15.797994613647461,
+      "n_chars": 94,
+      "n_tokens": 21,
+      "task_id": "HumanEval/162"
+    },
+    {
+      "log10_c": -13.863988690044184,
+      "logprob_mean_per_token": -0.6384602737426758,
+      "logprob_sum": -31.92301368713379,
+      "n_chars": 121,
+      "n_tokens": 50,
+      "task_id": "HumanEval/163"
+    }
+  ]
+}

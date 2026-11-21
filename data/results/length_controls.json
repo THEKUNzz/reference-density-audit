@@ -1,0 +1,200 @@
+{
+  "OLMo-2-1124-7B/humaneval": {
+    "n_pool": 164,
+    "n_windows": 157,
+    "window": 8,
+    "median_ess_window": 1.1486069830776897,
+    "p_shortest_wins": 0.1592356687898089,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.1111111111111112,
+    "ess_over_n_sequence": 0.013072401600857195,
+    "ess_over_n_per_token": 0.9346341033807133
+  },
+  "Qwen3.5-0.8B/humaneval": {
+    "n_pool": 164,
+    "n_windows": 157,
+    "window": 8,
+    "median_ess_window": 1.1027588451463946,
+    "p_shortest_wins": 0.15286624203821655,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.1181818181818182,
+    "ess_over_n_sequence": 0.0184336055578672,
+    "ess_over_n_per_token": 0.9305080596366752
+  },
+  "Qwen3.5-2B/humaneval": {
+    "n_pool": 164,
+    "n_windows": 157,
+    "window": 8,
+    "median_ess_window": 1.0949177720379517,
+    "p_shortest_wins": 0.16560509554140126,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.1181818181818182,
+    "ess_over_n_sequence": 0.030882890654866234,
+    "ess_over_n_per_token": 0.9483719108918063
+  },
+  "Qwen3.5-4B/humaneval": {
+    "n_pool": 164,
+    "n_windows": 157,
+    "window": 8,
+    "median_ess_window": 1.2449555510448769,
+    "p_shortest_wins": 0.16560509554140126,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.1181818181818182,
+    "ess_over_n_sequence": 0.03711475203469926,
+    "ess_over_n_per_token": 0.9583011887588493
+  },
+  "Qwen3.5-9B/humaneval": {
+    "n_pool": 164,
+    "n_windows": 157,
+    "window": 8,
+    "median_ess_window": 1.1136461112169402,
+    "p_shortest_wins": 0.18471337579617833,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.1181818181818182,
+    "ess_over_n_sequence": 0.05589718566231939,
+    "ess_over_n_per_token": 0.9661168819735876
+  },
+  "glm-4-9b/humaneval": {
+    "n_pool": 164,
+    "n_windows": 157,
+    "window": 8,
+    "median_ess_window": 1.5957020000755735,
+    "p_shortest_wins": 0.16560509554140126,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.1111111111111112,
+    "ess_over_n_sequence": 0.038612643750412644,
+    "ess_over_n_per_token": 0.9593663732026732
+  },
+  "OLMo-2-1124-7B/mbpp": {
+    "n_pool": 257,
+    "n_windows": 250,
+    "window": 8,
+    "median_ess_window": 1.0535362670727348,
+    "p_shortest_wins": 0.148,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.0526315789473684,
+    "ess_over_n_sequence": 0.005975334963654094,
+    "ess_over_n_per_token": 0.8941251438053335
+  },
+  "Qwen3.5-0.8B/mbpp": {
+    "n_pool": 257,
+    "n_windows": 250,
+    "window": 8,
+    "median_ess_window": 1.0058205376890543,
+    "p_shortest_wins": 0.156,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.05,
+    "ess_over_n_sequence": 0.005148523849013451,
+    "ess_over_n_per_token": 0.8811669203971256
+  },
+  "Qwen3.5-2B/mbpp": {
+    "n_pool": 257,
+    "n_windows": 250,
+    "window": 8,
+    "median_ess_window": 1.012563646014654,
+    "p_shortest_wins": 0.152,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.05,
+    "ess_over_n_sequence": 0.004665260241283861,
+    "ess_over_n_per_token": 0.8997284392241537
+  },
+  "Qwen3.5-4B/mbpp": {
+    "n_pool": 257,
+    "n_windows": 250,
+    "window": 8,
+    "median_ess_window": 1.0083409257302474,
+    "p_shortest_wins": 0.14,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.05,
+    "ess_over_n_sequence": 0.009949531950553134,
+    "ess_over_n_per_token": 0.9095859394254618
+  },
+  "Qwen3.5-9B/mbpp": {
+    "n_pool": 257,
+    "n_windows": 250,
+    "window": 8,
+    "median_ess_window": 1.0126240913338385,
+    "p_shortest_wins": 0.128,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.05,
+    "ess_over_n_sequence": 0.012607372879728579,
+    "ess_over_n_per_token": 0.9151716529693017
+  },
+  "glm-4-9b/mbpp": {
+    "n_pool": 257,
+    "n_windows": 250,
+    "window": 8,
+    "median_ess_window": 1.0103817848728696,
+    "p_shortest_wins": 0.104,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.0526315789473684,
+    "ess_over_n_sequence": 0.004071751099136654,
+    "ess_over_n_per_token": 0.8804541613090279
+  },
+  "OLMo-2-1124-7B/quixbugs": {
+    "n_pool": 40,
+    "n_windows": 33,
+    "window": 8,
+    "median_ess_window": 1.1080120315148252,
+    "p_shortest_wins": 0.12121212121212122,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.3333333333333333,
+    "ess_over_n_sequence": 0.03478064086302849,
+    "ess_over_n_per_token": 0.6180617006561056
+  },
+  "Qwen3.5-0.8B/quixbugs": {
+    "n_pool": 40,
+    "n_windows": 33,
+    "window": 8,
+    "median_ess_window": 1.1003563958033102,
+    "p_shortest_wins": 0.09090909090909091,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.3333333333333333,
+    "ess_over_n_sequence": 0.051686619960848126,
+    "ess_over_n_per_token": 0.6668814066421618
+  },
+  "Qwen3.5-2B/quixbugs": {
+    "n_pool": 40,
+    "n_windows": 33,
+    "window": 8,
+    "median_ess_window": 1.25847985888803,
+    "p_shortest_wins": 0.12121212121212122,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.3333333333333333,
+    "ess_over_n_sequence": 0.0727844436591426,
+    "ess_over_n_per_token": 0.723972337527157
+  },
+  "Qwen3.5-4B/quixbugs": {
+    "n_pool": 40,
+    "n_windows": 33,
+    "window": 8,
+    "median_ess_window": 1.032244301620907,
+    "p_shortest_wins": 0.09090909090909091,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.3333333333333333,
+    "ess_over_n_sequence": 0.0525637073729955,
+    "ess_over_n_per_token": 0.7246485732132082
+  },
+  "Qwen3.5-9B/quixbugs": {
+    "n_pool": 40,
+    "n_windows": 33,
+    "window": 8,
+    "median_ess_window": 1.41611983583924,
+    "p_shortest_wins": 0.15151515151515152,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.3333333333333333,
+    "ess_over_n_sequence": 0.058912589412029745,
+    "ess_over_n_per_token": 0.7545535665504016
+  },
+  "glm-4-9b/quixbugs": {
+    "n_pool": 40,
+    "n_windows": 33,
+    "window": 8,
+    "median_ess_window": 1.3654179421703352,
+    "p_shortest_wins": 0.09090909090909091,
+    "chance": 0.125,
+    "median_length_spread_in_window": 1.3333333333333333,
+    "ess_over_n_sequence": 0.042107348913539615,
+    "ess_over_n_per_token": 0.7138760481613063
+  }
+}

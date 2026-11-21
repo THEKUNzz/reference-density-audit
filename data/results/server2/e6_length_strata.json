@@ -1,0 +1,116 @@
+{
+  "model": "allenai/OLMo-2-1124-7B",
+  "n": 32,
+  "n_R1": 16,
+  "n_R0_skipped": 16,
+  "n_nan_skipped": 0,
+  "median_cert_len_chars": 104.5,
+  "short": {
+    "n": 8,
+    "mean_cos": 0.8861226841959129
+  },
+  "long": {
+    "n": 8,
+    "mean_cos": 0.9696009951735083
+  },
+  "pearson_r": 0.3547267418809117,
+  "rows": [
+    {
+      "task_id": "HumanEval/0",
+      "cert_len": 252,
+      "cos": 0.9798938375851637,
+      "edge_mask_rate": 0.72
+    },
+    {
+      "task_id": "HumanEval/2",
+      "cert_len": 24,
+      "cos": 0.9451942365838563,
+      "edge_mask_rate": 0.3333333333333333
+    },
+    {
+      "task_id": "HumanEval/4",
+      "cert_len": 101,
+      "cos": 0.9862761075621265,
+      "edge_mask_rate": 0.37037037037037035
+    },
+    {
+      "task_id": "HumanEval/6",
+      "cert_len": 336,
+      "cos": 0.9999530673371113,
+      "edge_mask_rate": 0.8554216867469879
+    },
+    {
+      "task_id": "HumanEval/8",
+      "cert_len": 140,
+      "cos": 0.9293397472099258,
+      "edge_mask_rate": 0.375
+    },
+    {
+      "task_id": "HumanEval/10",
+      "cert_len": 215,
+      "cos": 0.9772773991579885,
+      "edge_mask_rate": 0.7692307692307693
+    },
+    {
+      "task_id": "HumanEval/12",
+      "cert_len": 155,
+      "cos": 0.9116994006280071,
+      "edge_mask_rate": 0.5384615384615384
+    },
+    {
+      "task_id": "HumanEval/14",
+      "cert_len": 104,
+      "cos": 0.9643945452952876,
+      "edge_mask_rate": 0.64
+    },
+    {
+      "task_id": "HumanEval/16",
+      "cert_len": 36,
+      "cos": 0.5485279163093654,
+      "edge_mask_rate": 0.2857142857142857
+    },
+    {
+      "task_id": "HumanEval/18",
+      "cert_len": 162,
+      "cos": 0.9969603100276874,
+      "edge_mask_rate": 0.6222222222222222
+    },
+    {
+      "task_id": "HumanEval/20",
+      "cert_len": 575,
+      "cos": 0.9775495673545008,
+      "edge_mask_rate": 0.7962962962962963
+    },
+    {
+      "task_id": "HumanEval/22",
+      "cert_len": 53,
+      "cos": 0.917701184914817,
+      "edge_mask_rate": 0.21428571428571427
+    },
+    {
+      "task_id": "HumanEval/24",
+      "cert_len": 77,
+      "cos": 0.8605956902076433,
+      "edge_mask_rate": 0.3333333333333333
+    },
+    {
+      "task_id": "HumanEval/26",
+      "cert_len": 105,
+      "cos": 0.9841346320876814,
+      "edge_mask_rate": 0.6666666666666666
+    },
+    {
+      "task_id": "HumanEval/28",
+      "cert_len": 28,
+      "cos": 0.9102779115262495,
+      "edge_mask_rate": 0.16666666666666666
+    },
+    {
+      "task_id": "HumanEval/30",
+      "cert_len": 35,
+      "cos": 0.9560138811679575,
+      "edge_mask_rate": 0.35714285714285715
+    }
+  ],
+  "nan_rows": []
+}

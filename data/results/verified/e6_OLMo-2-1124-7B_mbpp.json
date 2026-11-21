@@ -1,0 +1,62 @@
+{
+  "alignment": {
+    "edge_opd": {
+      "cos_with_grad_Fq": 0.46487114754388453,
+      "cos_with_grad_Fq_shuffled": 0.6845331686894732,
+      "cos_with_grad_SFT": 0.34400626752321956,
+      "cos_with_grad_VCPO": 0.2416560603299911,
+      "implemented": true
+    },
+    "hsd": {
+      "cos_with_grad_Fq": 0.5635860312408234,
+      "cos_with_grad_Fq_shuffled": 0.2996514527440595,
+      "cos_with_grad_SFT": 0.43835933753975115,
+      "cos_with_grad_VCPO": 0.5331209600905454,
+      "implemented": true
+    },
+    "opid": {
+      "cos_with_grad_Fq": 0.6260789869687684,
+      "cos_with_grad_Fq_shuffled": 0.34154990159072396,
+      "cos_with_grad_SFT": 0.4323983323316921,
+      "cos_with_grad_VCPO": 0.4823488629117382,
+      "implemented": true
+    },
+    "vcpo": {
+      "cos_with_grad_Fq": 0.464536962069109,
+      "cos_with_grad_Fq_shuffled": 0.04611187497977224,
+      "cos_with_grad_SFT": 0.31072447872316034,
+      "cos_with_grad_VCPO": 1.0,
+      "implemented": true,
+      "note": "not a control: reweighted F_q, unstable across batch size"
+    }
+  },
+  "grad_l2_norms": {
+    "edge_opd": 360.0,
+    "fq": 189.0,
+    "fq_shuffled": 243.0,
+    "hsd": 7.1875,
+    "opid": 1020.0,
+    "sft": 312.0,
+    "vcpo": 1320.0
+  },
+  "meta": {
+    "dataset": "mbpp",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e6_alignment",
+    "extra": {
+      "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+      "cos_fq_vs_fq_shuffled": 0.284246848661076,
+      "edge_opd_mask_keep_rate": 0.6089219330855019,
+      "n_reward_0": 8,
+      "n_reward_1": 8,
+      "n_tasks": 16,
+      "scope": "update rules only, not the authors' full systems",
+      "shuffle_seed": null
+    },
+    "model": "allenai/OLMo-2-1124-7B",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "5.17.0"
+  }
+}

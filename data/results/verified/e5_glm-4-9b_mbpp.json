@@ -1,0 +1,31 @@
+{
+  "max_L": 209,
+  "meta": {
+    "dataset": "mbpp",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e5_horizon",
+    "extra": {
+      "max_L": 209,
+      "metric": "log10(c) = sum of per-token log10-probs; slope = log10(p_bar)",
+      "n_tasks": 257
+    },
+    "model": "THUDM/glm-4-9b",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "4.46.3"
+  },
+  "n_tasks": 257,
+  "per_token_log10_mean": -0.36433409774886777,
+  "report_lengths": {
+    "10": -6.642066396125207,
+    "15": -9.453523181223419,
+    "20": -11.153356154721958,
+    "25": -12.711605563260786,
+    "30": -14.236403477969521,
+    "40": -16.37798618594395,
+    "5": -2.6672412678489494,
+    "50": -18.873049399110972
+  },
+  "slope_log10_pbar": -0.2164560490187348
+}

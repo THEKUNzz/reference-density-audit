@@ -1,0 +1,52 @@
+{
+  "alignment": {
+    "edge_opd": {
+      "cos_with_grad_Fq": 0.3749932514574029,
+      "cos_with_grad_Fq_shuffled": 0.6390928660571626,
+      "cos_with_grad_SFT": 0.3294500187472395,
+      "cos_with_grad_VCPO": 0.19738592009258937,
+      "implemented": true
+    },
+    "hsd": {
+      "cos_with_grad_Fq": 0.2663919910687172,
+      "cos_with_grad_Fq_shuffled": 0.18405655178529257,
+      "cos_with_grad_SFT": 0.24081750010004174,
+      "cos_with_grad_VCPO": 0.18730834438321775,
+      "implemented": true
+    },
+    "opid": {
+      "cos_with_grad_Fq": 0.44425712034185477,
+      "cos_with_grad_Fq_shuffled": 0.31706259478074367,
+      "cos_with_grad_SFT": 0.4025291786225279,
+      "cos_with_grad_VCPO": 0.24538830042628249,
+      "implemented": true
+    },
+    "vcpo": {
+      "cos_with_grad_Fq": 0.5462420168254338,
+      "cos_with_grad_Fq_shuffled": 0.16971170141777323,
+      "cos_with_grad_SFT": 0.5696076364020011,
+      "cos_with_grad_VCPO": 1.0,
+      "implemented": true,
+      "note": "not a control: reweighted F_q, unstable across batch size"
+    }
+  },
+  "meta": {
+    "dataset": "humaneval",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e6_alignment",
+    "extra": {
+      "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+      "cos_fq_vs_fq_shuffled": 0.31456639966213146,
+      "edge_opd_mask_keep_rate": 0.7667872939284278,
+      "n_reward_0": 16,
+      "n_reward_1": 16,
+      "n_tasks": 32,
+      "scope": "update rules only, not the authors' full systems"
+    },
+    "model": "allenai/OLMo-2-1124-7B",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "5.17.0"
+  }
+}

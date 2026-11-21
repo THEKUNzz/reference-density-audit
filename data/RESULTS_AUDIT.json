@@ -1,0 +1,3432 @@
+{
+  "training": [
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "humaneval",
+      "runs": [
+        {
+          "file": "e2b_Qwen3.5-0.8B_seed0.json",
+          "seed": 0,
+          "gap_difference": 0.00956260596534908,
+          "moves": {
+            "fq": 0.16078691458354377,
+            "vcpo": 0.15489970197758363
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 143,
+          "fit_match_90": {
+            "target": -0.4505140560894174,
+            "gap_difference": 0.008263203540657016,
+            "steps": {
+              "fq": 200.88986284993467,
+              "vcpo": 230.55293794877633
+            }
+          }
+        },
+        {
+          "file": "e2b_Qwen3.5-0.8B_seed1.json",
+          "seed": 1,
+          "gap_difference": 0.011186863865432106,
+          "moves": {
+            "fq": 0.16070342795540637,
+            "vcpo": 0.15426348098137266
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 152,
+          "fit_match_90": {
+            "target": -0.4510866549860073,
+            "gap_difference": 0.008811222594461321,
+            "steps": {
+              "fq": 204.1911893871037,
+              "vcpo": 227.9815116934908
+            }
+          }
+        },
+        {
+          "file": "e2b_Qwen3.5-0.8B_seed2.json",
+          "seed": 2,
+          "gap_difference": 0.011231207082454842,
+          "moves": {
+            "fq": 0.1605043423240894,
+            "vcpo": 0.15432419824177923
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 150,
+          "fit_match_90": {
+            "target": -0.4510320094516414,
+            "gap_difference": 0.008851282570170982,
+            "steps": {
+              "fq": 198.60602011569938,
+              "vcpo": 229.81940707557618
+            }
+          }
+        }
+      ],
+      "mean": 0.010660225637745343,
+      "sd": 0.0009508250570675135,
+      "moves": {
+        "fq": 0.16066489495434652,
+        "vcpo": 0.1544957937335785
+      },
+      "movement_ratio": 1.0399305448496958,
+      "match90": 0.008641902901763107
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "mbpp",
+      "runs": [
+        {
+          "file": "kernel/e2b_Qwen3.5-0.8B_seed0_mbpp.json",
+          "seed": 0,
+          "gap_difference": 0.01793895824938907,
+          "moves": {
+            "fq": 0.1759596072980748,
+            "vcpo": 0.04835835317760573
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 162
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-0.8B_seed1_mbpp.json",
+          "seed": 1,
+          "gap_difference": 0.018152884451689166,
+          "moves": {
+            "fq": 0.17718397102614702,
+            "vcpo": 0.049211169702670476
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 167
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-0.8B_seed2_mbpp.json",
+          "seed": 2,
+          "gap_difference": 0.018285480310405333,
+          "moves": {
+            "fq": 0.17629360723383125,
+            "vcpo": 0.048013474979363036
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 166
+        }
+      ],
+      "mean": 0.01812577433716119,
+      "sd": 0.00017484451213872784,
+      "moves": {
+        "fq": 0.17647906185268436,
+        "vcpo": 0.04852766595321308
+      },
+      "movement_ratio": 3.6366690708519323,
+      "match90": null
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "humaneval",
+      "runs": [
+        {
+          "file": "e2b_Qwen3.5-2B_seed0.json",
+          "seed": 0,
+          "gap_difference": -0.003103244795177429,
+          "moves": {
+            "fq": 0.10552482834448673,
+            "vcpo": 0.10693576023749735
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 118,
+          "fit_match_90": {
+            "target": -0.45119142107077903,
+            "gap_difference": -0.0017602509932961308,
+            "steps": {
+              "fq": 261.8481100953451,
+              "vcpo": 253.37272077267525
+            }
+          }
+        },
+        {
+          "file": "e2b_Qwen3.5-2B_seed1.json",
+          "seed": 1,
+          "gap_difference": -0.004469148355700114,
+          "moves": {
+            "fq": 0.10739081028655095,
+            "vcpo": 0.10686384355572492
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 122,
+          "fit_match_90": {
+            "target": -0.4499863073806647,
+            "gap_difference": -0.0071872736879907695,
+            "steps": {
+              "fq": 266.50254386427474,
+              "vcpo": 262.58672583424976
+            }
+          }
+        },
+        {
+          "file": "e2b_Qwen3.5-2B_seed2.json",
+          "seed": 2,
+          "gap_difference": -0.007014018722415083,
+          "moves": {
+            "fq": 0.10677229380357317,
+            "vcpo": 0.10585631016880398
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 113,
+          "fit_match_90": {
+            "target": -0.45089308742889356,
+            "gap_difference": -0.005700845582856995,
+            "steps": {
+              "fq": 258.9675726141943,
+              "vcpo": 260.4960910577925
+            }
+          }
+        }
+      ],
+      "mean": -0.004862137291097542,
+      "sd": 0.001984784221269168,
+      "moves": {
+        "fq": 0.10656264414487028,
+        "vcpo": 0.10655197132067541
+      },
+      "movement_ratio": 1.0001001654315973,
+      "match90": -0.004882790088047965
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "mbpp",
+      "runs": [
+        {
+          "file": "kernel/e2b_Qwen3.5-2B_seed0_mbpp.json",
+          "seed": 0,
+          "gap_difference": 0.0017191492628960692,
+          "moves": {
+            "fq": 0.08081648538148001,
+            "vcpo": 0.038031234922856205
+          },
+          "monotone": {
+            "fq": false,
+            "vcpo": false
+          },
+          "N": 138
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-2B_seed1_mbpp.json",
+          "seed": 1,
+          "gap_difference": 0.00353330319787748,
+          "moves": {
+            "fq": 0.08162918162208233,
+            "vcpo": 0.03848011521670125
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 135
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-2B_seed2_mbpp.json",
+          "seed": 2,
+          "gap_difference": 0.004429123825098524,
+          "moves": {
+            "fq": 0.08235177450497078,
+            "vcpo": 0.03790183627179056
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 132
+        }
+      ],
+      "mean": 0.003227192095290691,
+      "sd": 0.0013806768402820668,
+      "moves": {
+        "fq": 0.08159914716951104,
+        "vcpo": 0.03813772880378267
+      },
+      "movement_ratio": 2.1395911536666463,
+      "match90": null
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "humaneval",
+      "runs": [
+        {
+          "file": "e2b_Qwen3.5-4B_seed0.json",
+          "seed": 0,
+          "gap_difference": 0.012038611210103745,
+          "moves": {
+            "fq": 0.11399955163889736,
+            "vcpo": 0.12767584166765605
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 85,
+          "fit_match_90": {
+            "target": -0.42102493880713643,
+            "gap_difference": 0.013336353862007266,
+            "steps": {
+              "fq": 250.55905866898328,
+              "vcpo": 193.77042298260858
+            }
+          }
+        },
+        {
+          "file": "e2b_Qwen3.5-4B_seed1.json",
+          "seed": 1,
+          "gap_difference": 0.011742084216227355,
+          "moves": {
+            "fq": 0.11379536046998545,
+            "vcpo": 0.12865819012304203
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 85,
+          "fit_match_90": {
+            "target": -0.4212087108591571,
+            "gap_difference": 0.014344082823902926,
+            "steps": {
+              "fq": 249.33238261165022,
+              "vcpo": 193.85841569712463
+            }
+          }
+        },
+        {
+          "file": "e2b_Qwen3.5-4B_seed2.json",
+          "seed": 2,
+          "gap_difference": 0.012239095665202815,
+          "moves": {
+            "fq": 0.11319317558467057,
+            "vcpo": 0.1277783175249304
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 84,
+          "fit_match_90": {
+            "target": -0.4217506772559405,
+            "gap_difference": 0.014405287470473482,
+            "steps": {
+              "fq": 247.58213174522123,
+              "vcpo": 193.8450751400262
+            }
+          }
+        }
+      ],
+      "mean": 0.012006597030511304,
+      "sd": 0.00025004754722733076,
+      "moves": {
+        "fq": 0.11366269589785112,
+        "vcpo": 0.12803744977187617
+      },
+      "movement_ratio": 0.8877300828809345,
+      "match90": 0.014028574718794559
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "mbpp",
+      "runs": [
+        {
+          "file": "kernel/e2b_Qwen3.5-4B_seed0_mbpp.json",
+          "seed": 0,
+          "gap_difference": 0.027059849636156263,
+          "moves": {
+            "fq": 0.09583772622557496,
+            "vcpo": 0.03722148605647191
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 103
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-4B_seed1_mbpp.json",
+          "seed": 1,
+          "gap_difference": 0.025874516290693594,
+          "moves": {
+            "fq": 0.0953754277262363,
+            "vcpo": 0.03778788809333766
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 91
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-4B_seed2_mbpp.json",
+          "seed": 2,
+          "gap_difference": 0.029406250926447997,
+          "moves": {
+            "fq": 0.09568083270759553,
+            "vcpo": 0.03583854613128157
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 89
+        }
+      ],
+      "mean": 0.027446872284432617,
+      "sd": 0.0017973945816252901,
+      "moves": {
+        "fq": 0.09563132888646893,
+        "vcpo": 0.03694930676036371
+      },
+      "movement_ratio": 2.5881765389183062,
+      "match90": null
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "humaneval",
+      "runs": [
+        {
+          "file": "kernel/e2b_Qwen3.5-9B_seed0.json",
+          "seed": 0,
+          "gap_difference": 0.010227907206710352,
+          "moves": {
+            "fq": 0.12874640174478358,
+            "vcpo": 0.12019992430992088
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 70,
+          "fit_match_90": {
+            "target": -0.3557359963906186,
+            "gap_difference": 0.004151232215845679,
+            "steps": {
+              "fq": 191.6753812910674,
+              "vcpo": 222.19917153579104
+            }
+          }
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-9B_seed1.json",
+          "seed": 1,
+          "gap_difference": 0.013327520002466287,
+          "moves": {
+            "fq": 0.13040650274833665,
+            "vcpo": 0.11861365067411284
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 71,
+          "fit_match_90": {
+            "target": -0.35716364266284584,
+            "gap_difference": 0.006016580594753573,
+            "steps": {
+              "fq": 185.77693690209145,
+              "vcpo": 216.10146511314105
+            }
+          }
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-9B_seed2.json",
+          "seed": 2,
+          "gap_difference": 0.010289559979876961,
+          "moves": {
+            "fq": 0.12930904610205968,
+            "vcpo": 0.12064134238923357
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 81,
+          "fit_match_90": {
+            "target": -0.3553387201192372,
+            "gap_difference": 0.004051068359412047,
+            "steps": {
+              "fq": 193.15662607403502,
+              "vcpo": 217.25157137328648
+            }
+          }
+        }
+      ],
+      "mean": 0.0112816623963512,
+      "sd": 0.001772032808523589,
+      "moves": {
+        "fq": 0.12948731686505996,
+        "vcpo": 0.1198183057910891
+      },
+      "movement_ratio": 1.0806972775164205,
+      "match90": 0.004739627056670433
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "mbpp",
+      "runs": [
+        {
+          "file": "kernel/e2b_Qwen3.5-9B_seed0_mbpp.json",
+          "seed": 0,
+          "gap_difference": 0.02914621273597051,
+          "moves": {
+            "fq": 0.11873452916911709,
+            "vcpo": 0.044557266572580745
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 88
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-9B_seed1_mbpp.json",
+          "seed": 1,
+          "gap_difference": 0.028321900713626613,
+          "moves": {
+            "fq": 0.11840999143232533,
+            "vcpo": 0.044909430049931864
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 87
+        },
+        {
+          "file": "kernel/e2b_Qwen3.5-9B_seed2_mbpp.json",
+          "seed": 2,
+          "gap_difference": 0.02885212218697053,
+          "moves": {
+            "fq": 0.11797861478242411,
+            "vcpo": 0.04444243091434896
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": false
+          },
+          "N": 87
+        }
+      ],
+      "mean": 0.028773411878855886,
+      "sd": 0.00041775478692385876,
+      "moves": {
+        "fq": 0.11837437846128884,
+        "vcpo": 0.044636375845620524
+      },
+      "movement_ratio": 2.6519710935022762,
+      "match90": null
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "humaneval",
+      "runs": [
+        {
+          "file": "e2b_OLMo-2-1124-7B_seed0.json",
+          "seed": 0,
+          "gap_difference": -0.013036585381091204,
+          "moves": {
+            "fq": 0.06899847735802711,
+            "vcpo": 0.09310110701185859
+          },
+          "monotone": {
+            "fq": true,
+            "vcpo": true
+          },
+          "N": 173,
+          "fit_match_90": {
+            "target": -0.6482665641516203,
+            "gap_difference": 0.003096828732945034,
+            "steps": {
+              "fq": 261.3772461560483,
+              "vcpo": 180.3198417412416
+            }
+          }
+        }
+      ],
+      "mean": -0.013036585381091204,
+      "sd": null,
+      "moves": {
+        "fq": 0.06899847735802711,
+        "vcpo": 0.09310110701185859
+      },
+      "movement_ratio": 0.7411133935199992,
+      "match90": 0.003096828732945034
+    }
+  ],
+  "allfail": [
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "humaneval",
+      "allfail": 60,
+      "groups": 120,
+      "rate": 0.5,
+      "wilson": [
+        0.41193870541108385,
+        0.5880612945889161
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 0,
+      "harness_errors": 0
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "mbpp",
+      "allfail": 60,
+      "groups": 120,
+      "rate": 0.5,
+      "wilson": [
+        0.41193870541108385,
+        0.5880612945889161
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 3,
+      "harness_errors": 0
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "humaneval",
+      "allfail": 32,
+      "groups": 120,
+      "rate": 0.26666666666666666,
+      "wilson": [
+        0.19568455046725244,
+        0.352124393861476
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 0,
+      "harness_errors": 0
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "mbpp",
+      "allfail": 43,
+      "groups": 120,
+      "rate": 0.35833333333333334,
+      "wilson": [
+        0.2781607905032006,
+        0.4472946399820988
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 3,
+      "harness_errors": 0
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "humaneval",
+      "allfail": 10,
+      "groups": 120,
+      "rate": 0.08333333333333333,
+      "wilson": [
+        0.045893650374929706,
+        0.14662232164065653
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 0,
+      "harness_errors": 0
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "mbpp",
+      "allfail": 21,
+      "groups": 120,
+      "rate": 0.175,
+      "wilson": [
+        0.11740535944566463,
+        0.25275709872649266
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 3,
+      "harness_errors": 0
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "humaneval",
+      "allfail": 5,
+      "groups": 120,
+      "rate": 0.041666666666666664,
+      "wilson": [
+        0.017926716880109515,
+        0.09384085233703535
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 0,
+      "harness_errors": 0
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "mbpp",
+      "allfail": 14,
+      "groups": 120,
+      "rate": 0.11666666666666667,
+      "wilson": [
+        0.0707811780783005,
+        0.18633351617603885
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 3,
+      "harness_errors": 0
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "humaneval",
+      "allfail": 77,
+      "groups": 120,
+      "rate": 0.6416666666666667,
+      "wilson": [
+        0.5527053600179013,
+        0.7218392094967996
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 0,
+      "harness_errors": 0
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "mbpp",
+      "allfail": 76,
+      "groups": 120,
+      "rate": 0.6333333333333333,
+      "wilson": [
+        0.5442242408550699,
+        0.7141706480999424
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 3,
+      "harness_errors": 0
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "humaneval",
+      "allfail": 11,
+      "groups": 120,
+      "rate": 0.09166666666666666,
+      "wilson": [
+        0.05195718284856543,
+        0.15670846972670907
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 0,
+      "harness_errors": 0
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "mbpp",
+      "allfail": 26,
+      "groups": 120,
+      "rate": 0.21666666666666667,
+      "wilson": [
+        0.15236723564151497,
+        0.29854362532908374
+      ],
+      "representative_group_checks": 3,
+      "individual_gradient_norms": 6,
+      "checks_nonzero": 3,
+      "checks_grpo_zero": 3,
+      "harness_fields_present": 3,
+      "harness_errors": 0
+    }
+  ],
+  "alignment": [
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "humaneval",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.35049431463974295,
+          "cos_with_grad_Fq_shuffled": 0.8227721421387648,
+          "cos_with_grad_SFT": 0.31359048644864235,
+          "cos_with_grad_VCPO": 0.13735122459392932,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.2077482948971362,
+          "cos_with_grad_Fq_shuffled": 0.16694899956413053,
+          "cos_with_grad_SFT": 0.19276559146518343,
+          "cos_with_grad_VCPO": 0.06825760902288158,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.3229516811610751,
+          "cos_with_grad_Fq_shuffled": 0.47906532003807367,
+          "cos_with_grad_SFT": 0.2869042120490138,
+          "cos_with_grad_VCPO": 0.04450710125629951,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.3419418136695692,
+          "cos_with_grad_Fq_shuffled": 0.09822606113105951,
+          "cos_with_grad_SFT": 0.36685934454517827,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 1020.0,
+        "fq": 340.0,
+        "fq_shuffled": 836.0,
+        "hsd": 20.75,
+        "opid": 2064.0,
+        "sft": 604.0,
+        "vcpo": 688.0
+      },
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.18630406959895165,
+          "edge_opd_mask_keep_rate": 0.604173974044195,
+          "n_reward_0": 32,
+          "n_reward_1": 32,
+          "n_tasks": 64,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": 0
+        },
+        "model": "Qwen/Qwen3.5-0.8B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "mbpp",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.5339066746206128,
+          "cos_with_grad_Fq_shuffled": 0.7191712614029337,
+          "cos_with_grad_SFT": 0.4355127644839381,
+          "cos_with_grad_VCPO": 0.12790463827010026,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.5699439778410645,
+          "cos_with_grad_Fq_shuffled": 0.39139582970903164,
+          "cos_with_grad_SFT": 0.5116893626865889,
+          "cos_with_grad_VCPO": 0.23638560808865375,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.527035168303219,
+          "cos_with_grad_Fq_shuffled": 0.27267816991557886,
+          "cos_with_grad_SFT": 0.42331538369215777,
+          "cos_with_grad_VCPO": 0.12104820287616988,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.23276982073788793,
+          "cos_with_grad_Fq_shuffled": 0.13647431101914345,
+          "cos_with_grad_SFT": 0.23178239260195566,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 1004.0,
+        "fq": 592.0,
+        "fq_shuffled": 804.0,
+        "hsd": 17.875,
+        "opid": 3744.0,
+        "sft": 1024.0,
+        "vcpo": 1352.0
+      },
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.391023815209932,
+          "edge_opd_mask_keep_rate": 0.5960264900662252,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "Qwen/Qwen3.5-0.8B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "quixbugs",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.5220065781357153,
+          "cos_with_grad_Fq_shuffled": 0.6739491647300212,
+          "cos_with_grad_SFT": 0.4716820044103478,
+          "cos_with_grad_VCPO": 0.19500087279367548,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.8135319172114022,
+          "cos_with_grad_Fq_shuffled": 0.1841752670280383,
+          "cos_with_grad_SFT": 0.788344749639461,
+          "cos_with_grad_VCPO": 0.23127220960033318,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.32673285190512574,
+          "cos_with_grad_Fq_shuffled": 0.3181382276389871,
+          "cos_with_grad_SFT": 0.32941407647454385,
+          "cos_with_grad_VCPO": 0.10342970629527663,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.3995640696458865,
+          "cos_with_grad_Fq_shuffled": 0.05556752191669449,
+          "cos_with_grad_SFT": 0.359088211494966,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 700.0,
+        "fq": 448.0,
+        "fq_shuffled": 720.0,
+        "hsd": 38.0,
+        "opid": 3584.0,
+        "sft": 752.0,
+        "vcpo": 1136.0
+      },
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.12232363893909153,
+          "edge_opd_mask_keep_rate": 0.5389797882579404,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "Qwen/Qwen3.5-0.8B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "humaneval",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.38880595883186236,
+          "cos_with_grad_Fq_shuffled": 0.7864867583041125,
+          "cos_with_grad_SFT": 0.3309508771808158,
+          "cos_with_grad_VCPO": 0.15629817887908645,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.18137840762873703,
+          "cos_with_grad_Fq_shuffled": 0.20285534575869082,
+          "cos_with_grad_SFT": 0.14239818495126708,
+          "cos_with_grad_VCPO": 0.1161198734154887,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.3512061161113818,
+          "cos_with_grad_Fq_shuffled": 0.4099408759801382,
+          "cos_with_grad_SFT": 0.2781633755847368,
+          "cos_with_grad_VCPO": 0.0815298683501936,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.3753218173592237,
+          "cos_with_grad_Fq_shuffled": 0.06517842200243829,
+          "cos_with_grad_SFT": 0.42545401944989675,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 632.0,
+        "fq": 242.0,
+        "fq_shuffled": 510.0,
+        "hsd": 13.1875,
+        "opid": 1512.0,
+        "sft": 408.0,
+        "vcpo": 616.0
+      },
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.13840115643785453,
+          "edge_opd_mask_keep_rate": 0.454928095405121,
+          "n_reward_0": 32,
+          "n_reward_1": 32,
+          "n_tasks": 64,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": 0
+        },
+        "model": "Qwen/Qwen3.5-2B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "mbpp",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.8620693085280551,
+          "cos_with_grad_Fq_shuffled": 0.5782286502278194,
+          "cos_with_grad_SFT": 0.6823158716776815,
+          "cos_with_grad_VCPO": 0.17171772874759136,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.4936713371884522,
+          "cos_with_grad_Fq_shuffled": 0.26365946538711904,
+          "cos_with_grad_SFT": 0.4263073683175123,
+          "cos_with_grad_VCPO": 0.17764519970940937,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.7179452319020503,
+          "cos_with_grad_Fq_shuffled": 0.2632276796884494,
+          "cos_with_grad_SFT": 0.5591195093595929,
+          "cos_with_grad_VCPO": 0.14438779450626757,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.20588393421481294,
+          "cos_with_grad_Fq_shuffled": 0.07849359997949686,
+          "cos_with_grad_SFT": 0.2026159295814009,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 520.0,
+        "fq": 448.0,
+        "fq_shuffled": 604.0,
+        "hsd": 13.0,
+        "opid": 2040.0,
+        "sft": 764.0,
+        "vcpo": 944.0
+      },
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.3524581314623874,
+          "edge_opd_mask_keep_rate": 0.4304635761589404,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "Qwen/Qwen3.5-2B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "quixbugs",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.4636124345954858,
+          "cos_with_grad_Fq_shuffled": 0.6345874198199012,
+          "cos_with_grad_SFT": 0.40851539582356544,
+          "cos_with_grad_VCPO": 0.2462289669118459,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.4691855439153058,
+          "cos_with_grad_Fq_shuffled": 0.127217629061383,
+          "cos_with_grad_SFT": 0.4470578366116021,
+          "cos_with_grad_VCPO": 0.2458572083952408,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.47189287495487053,
+          "cos_with_grad_Fq_shuffled": 0.1743199678188716,
+          "cos_with_grad_SFT": 0.4565991867055524,
+          "cos_with_grad_VCPO": 0.25501801639083477,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.5267511838674831,
+          "cos_with_grad_Fq_shuffled": 0.06297651788465075,
+          "cos_with_grad_SFT": 0.5167933749474801,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 484.0,
+        "fq": 298.0,
+        "fq_shuffled": 564.0,
+        "hsd": 25.875,
+        "opid": 936.0,
+        "sft": 548.0,
+        "vcpo": 1032.0
+      },
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.09843527270496787,
+          "edge_opd_mask_keep_rate": 0.5370548604427334,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "Qwen/Qwen3.5-2B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "humaneval",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.3024520472808479,
+          "cos_with_grad_Fq_shuffled": 0.6900506550417791,
+          "cos_with_grad_SFT": 0.23857216336437853,
+          "cos_with_grad_VCPO": 0.15660071545268217,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.1439251761563679,
+          "cos_with_grad_Fq_shuffled": 0.16323480034515128,
+          "cos_with_grad_SFT": 0.11757622834099875,
+          "cos_with_grad_VCPO": 0.09802695233209462,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.16661555195717834,
+          "cos_with_grad_Fq_shuffled": 0.44009817799422585,
+          "cos_with_grad_SFT": 0.11633598012006244,
+          "cos_with_grad_VCPO": 0.04055205668400875,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.38983497802264344,
+          "cos_with_grad_Fq_shuffled": 0.06857462124299445,
+          "cos_with_grad_SFT": 0.39898164904162126,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 524.0,
+        "fq": 192.0,
+        "fq_shuffled": 516.0,
+        "hsd": 10.0625,
+        "opid": 1992.0,
+        "sft": 348.0,
+        "vcpo": 536.0
+      },
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.05659720789659453,
+          "edge_opd_mask_keep_rate": 0.3460189407225535,
+          "n_reward_0": 32,
+          "n_reward_1": 32,
+          "n_tasks": 64,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": 0
+        },
+        "model": "Qwen/Qwen3.5-4B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "mbpp",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.21970217374254747,
+          "cos_with_grad_Fq_shuffled": 0.6902759995221712,
+          "cos_with_grad_SFT": 0.1693762394491585,
+          "cos_with_grad_VCPO": 0.049174912170910925,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.18927180191322596,
+          "cos_with_grad_Fq_shuffled": 0.3023235176650019,
+          "cos_with_grad_SFT": 0.15557010585837566,
+          "cos_with_grad_VCPO": 0.07586535084891127,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.16275229401707084,
+          "cos_with_grad_Fq_shuffled": 0.36975079893237484,
+          "cos_with_grad_SFT": 0.12450700220529745,
+          "cos_with_grad_VCPO": 0.03778158126267451,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.17046111601874595,
+          "cos_with_grad_Fq_shuffled": 0.06742191729093033,
+          "cos_with_grad_SFT": 0.17161020109964062,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 1816.0,
+        "fq": 330.0,
+        "fq_shuffled": 596.0,
+        "hsd": 27.625,
+        "opid": 7648.0,
+        "sft": 552.0,
+        "vcpo": 684.0
+      },
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.26627369251773336,
+          "edge_opd_mask_keep_rate": 0.9050772626931567,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "Qwen/Qwen3.5-4B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "quixbugs",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.4064527836853009,
+          "cos_with_grad_Fq_shuffled": 0.6925907209085764,
+          "cos_with_grad_SFT": 0.3967466308986134,
+          "cos_with_grad_VCPO": 0.2845856140490504,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.457163561154595,
+          "cos_with_grad_Fq_shuffled": 0.21191551776181086,
+          "cos_with_grad_SFT": 0.5022831167518039,
+          "cos_with_grad_VCPO": 0.20722762009367482,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.5570923273498607,
+          "cos_with_grad_Fq_shuffled": 0.31495226711967383,
+          "cos_with_grad_SFT": 0.5831230550343697,
+          "cos_with_grad_VCPO": 0.33908869575914086,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.5887775224924567,
+          "cos_with_grad_Fq_shuffled": 0.17909055687855757,
+          "cos_with_grad_SFT": 0.5537477296891702,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 476.0,
+        "fq": 247.0,
+        "fq_shuffled": 442.0,
+        "hsd": 19.75,
+        "opid": 944.0,
+        "sft": 412.0,
+        "vcpo": 1144.0
+      },
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.21134797045114667,
+          "edge_opd_mask_keep_rate": 0.3224254090471607,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "Qwen/Qwen3.5-4B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "humaneval",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.3887314359436882,
+          "cos_with_grad_Fq_shuffled": 0.4569085336640274,
+          "cos_with_grad_SFT": 0.34311418766988694,
+          "cos_with_grad_VCPO": 0.09927551884797711,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.24802604278472157,
+          "cos_with_grad_Fq_shuffled": 0.09862867014021971,
+          "cos_with_grad_SFT": 0.22369371059132326,
+          "cos_with_grad_VCPO": -0.0010252363798754253,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.46671924469933507,
+          "cos_with_grad_Fq_shuffled": -0.17376427103291667,
+          "cos_with_grad_SFT": 0.4135164959698387,
+          "cos_with_grad_VCPO": 0.03127700856133553,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.3932738624446523,
+          "cos_with_grad_Fq_shuffled": 0.023786554807912655,
+          "cos_with_grad_SFT": 0.450422936230279,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 388.0,
+        "fq": 157.0,
+        "fq_shuffled": 356.0,
+        "hsd": 8.0,
+        "opid": 836.0,
+        "sft": 264.0,
+        "vcpo": 644.0
+      },
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.0985825804382837,
+          "edge_opd_mask_keep_rate": 0.40775166608207647,
+          "n_reward_0": 32,
+          "n_reward_1": 32,
+          "n_tasks": 64,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": 0
+        },
+        "model": "Qwen/Qwen3.5-9B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "mbpp",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.4922678519501285,
+          "cos_with_grad_Fq_shuffled": 0.6408230295100773,
+          "cos_with_grad_SFT": 0.3688458554990262,
+          "cos_with_grad_VCPO": 0.06120137527036164,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.4092544034315991,
+          "cos_with_grad_Fq_shuffled": 0.25913727492687727,
+          "cos_with_grad_SFT": 0.34140173809348,
+          "cos_with_grad_VCPO": 0.08430563813467364,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.5320128933127821,
+          "cos_with_grad_Fq_shuffled": 0.14543274781111318,
+          "cos_with_grad_SFT": 0.3974087955771395,
+          "cos_with_grad_VCPO": 0.08896635024375586,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.14105331230398327,
+          "cos_with_grad_Fq_shuffled": 0.07063744445343222,
+          "cos_with_grad_SFT": 0.14268795477012206,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 564.0,
+        "fq": 260.0,
+        "fq_shuffled": 408.0,
+        "hsd": 7.65625,
+        "opid": 1368.0,
+        "sft": 474.0,
+        "vcpo": 510.0
+      },
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.3341773625601242,
+          "edge_opd_mask_keep_rate": 0.7056659308314938,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "Qwen/Qwen3.5-9B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "quixbugs",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.307736117422024,
+          "cos_with_grad_Fq_shuffled": 0.7351623322507822,
+          "cos_with_grad_SFT": 0.2803013460367623,
+          "cos_with_grad_VCPO": 0.2062153074271627,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.3187181083633103,
+          "cos_with_grad_Fq_shuffled": 0.1643036000496939,
+          "cos_with_grad_SFT": 0.3861904159648729,
+          "cos_with_grad_VCPO": 0.21967094109416258,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.41047160930069426,
+          "cos_with_grad_Fq_shuffled": 0.22510801043666726,
+          "cos_with_grad_SFT": 0.411783841623269,
+          "cos_with_grad_VCPO": 0.22688574461035158,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.5440033821781576,
+          "cos_with_grad_Fq_shuffled": 0.06603324820656643,
+          "cos_with_grad_SFT": 0.5284396929934313,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 482.0,
+        "fq": 174.0,
+        "fq_shuffled": 386.0,
+        "hsd": 18.125,
+        "opid": 1072.0,
+        "sft": 336.0,
+        "vcpo": 676.0
+      },
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.11729906873146889,
+          "edge_opd_mask_keep_rate": 0.5168431183830606,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "Qwen/Qwen3.5-9B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "humaneval",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.29540813240436326,
+          "cos_with_grad_Fq_shuffled": 0.8112747384714506,
+          "cos_with_grad_SFT": 0.2388230564851305,
+          "cos_with_grad_VCPO": 0.13415679492149288,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.16465958079911017,
+          "cos_with_grad_Fq_shuffled": 0.1734585751016539,
+          "cos_with_grad_SFT": 0.1465306323806704,
+          "cos_with_grad_VCPO": 0.1573619809442268,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.26162450780826957,
+          "cos_with_grad_Fq_shuffled": 0.3482837971332074,
+          "cos_with_grad_SFT": 0.22021714434880307,
+          "cos_with_grad_VCPO": 0.11331484936610285,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.3568132137188666,
+          "cos_with_grad_Fq_shuffled": 0.08611017579899741,
+          "cos_with_grad_SFT": 0.37059308837933375,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 245.0,
+        "fq": 87.0,
+        "fq_shuffled": 222.0,
+        "hsd": 6.65625,
+        "opid": 512.0,
+        "sft": 150.0,
+        "vcpo": 284.0
+      },
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.13574217207328548,
+          "edge_opd_mask_keep_rate": 0.7207126147201728,
+          "n_reward_0": 32,
+          "n_reward_1": 32,
+          "n_tasks": 64,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": 0
+        },
+        "model": "allenai/OLMo-2-1124-7B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "mbpp",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.46487114754388453,
+          "cos_with_grad_Fq_shuffled": 0.6845331686894732,
+          "cos_with_grad_SFT": 0.34400626752321956,
+          "cos_with_grad_VCPO": 0.2416560603299911,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.5635860312408234,
+          "cos_with_grad_Fq_shuffled": 0.2996514527440595,
+          "cos_with_grad_SFT": 0.43835933753975115,
+          "cos_with_grad_VCPO": 0.5331209600905454,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.6260789869687684,
+          "cos_with_grad_Fq_shuffled": 0.34154990159072396,
+          "cos_with_grad_SFT": 0.4323983323316921,
+          "cos_with_grad_VCPO": 0.4823488629117382,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.464536962069109,
+          "cos_with_grad_Fq_shuffled": 0.04611187497977224,
+          "cos_with_grad_SFT": 0.31072447872316034,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 360.0,
+        "fq": 189.0,
+        "fq_shuffled": 243.0,
+        "hsd": 7.1875,
+        "opid": 1020.0,
+        "sft": 312.0,
+        "vcpo": 1320.0
+      },
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.284246848661076,
+          "edge_opd_mask_keep_rate": 0.6089219330855019,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "allenai/OLMo-2-1124-7B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "quixbugs",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.40696213328136366,
+          "cos_with_grad_Fq_shuffled": 0.7265716496868396,
+          "cos_with_grad_SFT": 0.35714410255288687,
+          "cos_with_grad_VCPO": 0.17644857516705723,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.6794130087484492,
+          "cos_with_grad_Fq_shuffled": 0.1546743641595619,
+          "cos_with_grad_SFT": 0.6649686672105385,
+          "cos_with_grad_VCPO": 0.3424161316859576,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.6617358232118061,
+          "cos_with_grad_Fq_shuffled": 0.1694138385482042,
+          "cos_with_grad_SFT": 0.6209657496621183,
+          "cos_with_grad_VCPO": 0.2653292458150391,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.5847435175176338,
+          "cos_with_grad_Fq_shuffled": 0.05915098394758108,
+          "cos_with_grad_SFT": 0.5608635126517266,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 264.0,
+        "fq": 138.0,
+        "fq_shuffled": 242.0,
+        "hsd": 13.4375,
+        "opid": 584.0,
+        "sft": 234.0,
+        "vcpo": 532.0
+      },
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.13104068206663155,
+          "edge_opd_mask_keep_rate": 0.6073147256977863,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "allenai/OLMo-2-1124-7B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "humaneval",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.02410615411399744,
+          "cos_with_grad_Fq_shuffled": 0.9300558944000751,
+          "cos_with_grad_SFT": 0.03880756492265374,
+          "cos_with_grad_VCPO": 0.013801282381855191,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.012883227410562668,
+          "cos_with_grad_Fq_shuffled": 0.8903861100430543,
+          "cos_with_grad_SFT": 0.015686917381435586,
+          "cos_with_grad_VCPO": -0.007730043949584488,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.03606713304483692,
+          "cos_with_grad_Fq_shuffled": 0.8929602538642019,
+          "cos_with_grad_SFT": 0.04656773009063409,
+          "cos_with_grad_VCPO": 0.012745334296336225,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.2468968859238403,
+          "cos_with_grad_Fq_shuffled": 0.01590873201076143,
+          "cos_with_grad_SFT": 0.2891281477191944,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 24064.0,
+        "fq": 308.0,
+        "fq_shuffled": 13632.0,
+        "hsd": 97.0,
+        "opid": 27520.0,
+        "sft": 498.0,
+        "vcpo": 876.0
+      },
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.02643660148869126,
+          "edge_opd_mask_keep_rate": 0.6362901596282077,
+          "n_reward_0": 32,
+          "n_reward_1": 32,
+          "n_tasks": 64,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": 0
+        },
+        "model": "THUDM/glm-4-9b",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "4.46.3"
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "mbpp",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.6254721583369139,
+          "cos_with_grad_Fq_shuffled": 0.5682651549829447,
+          "cos_with_grad_SFT": 0.5544604009135424,
+          "cos_with_grad_VCPO": 0.3689288845997303,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.7708297832626875,
+          "cos_with_grad_Fq_shuffled": 0.2807607562529093,
+          "cos_with_grad_SFT": 0.7218294658129796,
+          "cos_with_grad_VCPO": 0.558606684460098,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.7405442315039058,
+          "cos_with_grad_Fq_shuffled": 0.18600536872939927,
+          "cos_with_grad_SFT": 0.6566202301902985,
+          "cos_with_grad_VCPO": 0.4546289746325562,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.5245694264495859,
+          "cos_with_grad_Fq_shuffled": 0.17463482872992575,
+          "cos_with_grad_SFT": 0.5040223290104356,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 2560.0,
+        "fq": 1568.0,
+        "fq_shuffled": 2752.0,
+        "hsd": 55.75,
+        "opid": 7584.0,
+        "sft": 2880.0,
+        "vcpo": 3680.0
+      },
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.29535054633342095,
+          "edge_opd_mask_keep_rate": 0.5795170691090757,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "THUDM/glm-4-9b",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "4.46.3"
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "quixbugs",
+      "alignment": {
+        "edge_opd": {
+          "cos_with_grad_Fq": 0.13199321528867705,
+          "cos_with_grad_Fq_shuffled": 0.7648354442315904,
+          "cos_with_grad_SFT": 0.1296397352945214,
+          "cos_with_grad_VCPO": 0.08924676307829683,
+          "implemented": true
+        },
+        "hsd": {
+          "cos_with_grad_Fq": 0.6281390193803498,
+          "cos_with_grad_Fq_shuffled": 0.4158332991988126,
+          "cos_with_grad_SFT": 0.6185590235548173,
+          "cos_with_grad_VCPO": 0.41556885339299865,
+          "implemented": true
+        },
+        "opid": {
+          "cos_with_grad_Fq": 0.31696224668194145,
+          "cos_with_grad_Fq_shuffled": 0.6079245734084737,
+          "cos_with_grad_SFT": 0.31177549387322917,
+          "cos_with_grad_VCPO": 0.18866577754737518,
+          "implemented": true
+        },
+        "vcpo": {
+          "cos_with_grad_Fq": 0.6176559612183283,
+          "cos_with_grad_Fq_shuffled": 0.1102079343887544,
+          "cos_with_grad_SFT": 0.5770958487246853,
+          "cos_with_grad_VCPO": 1.0,
+          "implemented": true,
+          "note": "not a control: reweighted F_q, unstable across batch size"
+        }
+      },
+      "grad_l2_norms": {
+        "edge_opd": 5632.0,
+        "fq": 688.0,
+        "fq_shuffled": 2496.0,
+        "hsd": 66.0,
+        "opid": 6208.0,
+        "sft": 1168.0,
+        "vcpo": 2752.0
+      },
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e6_alignment",
+        "extra": {
+          "control": "shuffled-pairing F_q (deranged prompt-rollout)",
+          "cos_fq_vs_fq_shuffled": 0.12520418591136095,
+          "edge_opd_mask_keep_rate": 0.5329608938547487,
+          "n_reward_0": 8,
+          "n_reward_1": 8,
+          "n_tasks": 16,
+          "scope": "update rules only, not the authors' full systems",
+          "shuffle_seed": null
+        },
+        "model": "THUDM/glm-4-9b",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "4.46.3"
+      }
+    }
+  ],
+  "decay": [
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "humaneval",
+      "n": 164,
+      "token": {
+        "intercept": -3.6327629314246535,
+        "n": 164,
+        "r2": 0.5435375230471425,
+        "slope": -0.20971879836627302,
+        "slope_stderr": 0.015099676022930919
+      },
+      "char": {
+        "intercept": -5.061588416808523,
+        "n": 164,
+        "r2": 0.4918820310460871,
+        "slope": -0.05971321856832694,
+        "slope_stderr": 0.004768313171700363
+      },
+      "probability_ess": 3.0231113114902213,
+      "horizon": {
+        "10": -4.687244127533118,
+        "15": -6.3878278671739235,
+        "20": -7.9182056750819685,
+        "25": -9.190545922744594,
+        "30": -10.497079677181397,
+        "40": -12.573096735176362,
+        "5": -3.1516544077139117,
+        "50": -15.072702698062614
+      }
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "mbpp",
+      "n": 257,
+      "token": {
+        "intercept": -5.870560457763561,
+        "n": 257,
+        "r2": 0.7075971332905162,
+        "slope": -0.32055186341212516,
+        "slope_stderr": 0.012904048785620573
+      },
+      "char": {
+        "intercept": -7.232079783311081,
+        "n": 257,
+        "r2": 0.6203252545988487,
+        "slope": -0.09769474062479007,
+        "slope_stderr": 0.00478627026268701
+      },
+      "probability_ess": 1.3231706291964578,
+      "horizon": {
+        "10": -6.458985302300503,
+        "15": -10.002686116868775,
+        "20": -12.421312118337392,
+        "25": -14.346756825434621,
+        "30": -16.276338364213384,
+        "40": -19.468589318061,
+        "5": -2.2695851960920868,
+        "50": -22.878228141505115
+      }
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "quixbugs",
+      "n": 40,
+      "token": {
+        "intercept": -2.861023830602036,
+        "n": 40,
+        "r2": 0.29693704178066627,
+        "slope": -0.3692170405049722,
+        "slope_stderr": 0.09216262975117505
+      },
+      "char": {
+        "intercept": -1.287145402039784,
+        "n": 40,
+        "r2": 0.4957765938830204,
+        "slope": -0.14579770144783324,
+        "slope_stderr": 0.02385214111729981
+      },
+      "probability_ess": 2.067464798433925,
+      "horizon": {
+        "10": -7.433782632247208,
+        "15": -8.53864735410899,
+        "20": -13.080038415840226,
+        "5": -5.221085579485376
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "humaneval",
+      "n": 164,
+      "token": {
+        "intercept": -3.3139915506990265,
+        "n": 164,
+        "r2": 0.5603368206793153,
+        "slope": -0.18188700947906397,
+        "slope_stderr": 0.012658424115643975
+      },
+      "char": {
+        "intercept": -4.470822693745506,
+        "n": 164,
+        "r2": 0.516042966762122,
+        "slope": -0.05224412258744066,
+        "slope_stderr": 0.0039750299366357236
+      },
+      "probability_ess": 5.0647940673980605,
+      "horizon": {
+        "10": -4.333340365769968,
+        "15": -5.775542313222636,
+        "20": -7.046728613286144,
+        "25": -8.143485048367426,
+        "30": -9.234442868788793,
+        "40": -11.167691474815365,
+        "5": -2.944600453846826,
+        "50": -13.232673888868336
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "mbpp",
+      "n": 257,
+      "token": {
+        "intercept": -5.778281237017357,
+        "n": 257,
+        "r2": 0.6757039237443487,
+        "slope": -0.2730201642793173,
+        "slope_stderr": 0.011844514393617786
+      },
+      "char": {
+        "intercept": -6.752573318727194,
+        "n": 257,
+        "r2": 0.6092816664571847,
+        "slope": -0.08438820279003827,
+        "slope_stderr": 0.004231891139952253
+      },
+      "probability_ess": 1.1989718820099509,
+      "horizon": {
+        "10": -5.939833273913431,
+        "15": -9.143367774477925,
+        "20": -11.183164830422614,
+        "25": -12.908618615327965,
+        "30": -14.60801808571412,
+        "40": -17.449842144569434,
+        "5": -2.113361501044947,
+        "50": -20.519576812361194
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "quixbugs",
+      "n": 40,
+      "token": {
+        "intercept": -3.0418635944452452,
+        "n": 40,
+        "r2": 0.2061426157476146,
+        "slope": -0.23840091378440165,
+        "slope_stderr": 0.07589330581692386
+      },
+      "char": {
+        "intercept": -1.8606380255250135,
+        "n": 40,
+        "r2": 0.3770374776016864,
+        "slope": -0.09853134350473129,
+        "slope_stderr": 0.020545717184911293
+      },
+      "probability_ess": 2.9113777463657033,
+      "horizon": {
+        "10": -5.857977626633597,
+        "15": -6.286961248594082,
+        "20": -9.947449245189658,
+        "5": -4.535576369332234
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "humaneval",
+      "n": 164,
+      "token": {
+        "intercept": -3.0711985185184267,
+        "n": 164,
+        "r2": 0.5607372711764143,
+        "slope": -0.15787239396209043,
+        "slope_stderr": 0.010978200368584979
+      },
+      "char": {
+        "intercept": -3.9418705678764194,
+        "n": 164,
+        "r2": 0.5333502228597289,
+        "slope": -0.046083995933003837,
+        "slope_stderr": 0.003386740437822704
+      },
+      "probability_ess": 6.086819333690675,
+      "horizon": {
+        "10": -3.8301861298867865,
+        "15": -5.078258138018538,
+        "20": -6.167146426565648,
+        "25": -7.146305570829637,
+        "30": -8.102597271466404,
+        "40": -9.763884134071967,
+        "5": -2.606936656336693,
+        "50": -11.59698909372609
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "mbpp",
+      "n": 257,
+      "token": {
+        "intercept": -5.656373132998735,
+        "n": 257,
+        "r2": 0.6247501876837364,
+        "slope": -0.23155487460748267,
+        "slope_stderr": 0.01123804798212279
+      },
+      "char": {
+        "intercept": -6.3687094831563575,
+        "n": 257,
+        "r2": 0.5748157764858062,
+        "slope": -0.07229716200529855,
+        "slope_stderr": 0.003893815687728672
+      },
+      "probability_ess": 2.557029711292152,
+      "horizon": {
+        "10": -5.38027587170584,
+        "15": -8.285805226468767,
+        "20": -10.136881383656382,
+        "25": -11.583733950939267,
+        "30": -13.090702254050848,
+        "40": -15.506133780752872,
+        "5": -1.9351980686342192,
+        "50": -17.905125248878097
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "quixbugs",
+      "n": 40,
+      "token": {
+        "intercept": -3.4066377184645376,
+        "n": 40,
+        "r2": 0.17726638321077337,
+        "slope": -0.1827740544865538,
+        "slope_stderr": 0.06387621546129253
+      },
+      "char": {
+        "intercept": -2.3448655811243997,
+        "n": 40,
+        "r2": 0.36088012695174887,
+        "slope": -0.07969681340081027,
+        "slope_stderr": 0.01720516476941905
+      },
+      "probability_ess": 2.1025482949198184,
+      "horizon": {
+        "10": -5.706261412303587,
+        "15": -5.831234543739926,
+        "20": -8.862263516551875,
+        "5": -4.584337733009809
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "humaneval",
+      "n": 164,
+      "token": {
+        "intercept": -2.738055490514699,
+        "n": 164,
+        "r2": 0.5524923441486198,
+        "slope": -0.15054925635522956,
+        "slope_stderr": 0.010645307474260622
+      },
+      "char": {
+        "intercept": -3.5060940162715917,
+        "n": 164,
+        "r2": 0.5337710284880521,
+        "slope": -0.04429048008566277,
+        "slope_stderr": 0.003252183261156653
+      },
+      "probability_ess": 9.167138448620372,
+      "horizon": {
+        "10": -3.701953456561372,
+        "15": -4.8712993854275615,
+        "20": -5.8659688451441445,
+        "25": -6.857309417756931,
+        "30": -7.84691160590924,
+        "40": -9.49848331634533,
+        "5": -2.511229945949085,
+        "50": -11.248963611486332
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "mbpp",
+      "n": 257,
+      "token": {
+        "intercept": -6.371650136039392,
+        "n": 257,
+        "r2": 0.5493538696320128,
+        "slope": -0.1909021720408774,
+        "slope_stderr": 0.010827607608586825
+      },
+      "char": {
+        "intercept": -6.773150252776891,
+        "n": 257,
+        "r2": 0.5256996954510099,
+        "slope": -0.06078687509486061,
+        "slope_stderr": 0.003615743105523666
+      },
+      "probability_ess": 3.2400948300902406,
+      "horizon": {
+        "10": -5.163011634757908,
+        "15": -7.875382125983631,
+        "20": -9.47393886386268,
+        "25": -10.800535401084751,
+        "30": -12.08569376963997,
+        "40": -14.263623334191616,
+        "5": -1.8418263121111482,
+        "50": -16.548499343567496
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "quixbugs",
+      "n": 40,
+      "token": {
+        "intercept": -3.6326544283424194,
+        "n": 40,
+        "r2": 0.1364047364135894,
+        "slope": -0.1365926150399382,
+        "slope_stderr": 0.055753973179075454
+      },
+      "char": {
+        "intercept": -2.73034046826464,
+        "n": 40,
+        "r2": 0.305355587047498,
+        "slope": -0.06245591122089489,
+        "slope_stderr": 0.015281292508873804
+      },
+      "probability_ess": 2.3565035764811904,
+      "horizon": {
+        "10": -5.488807594555275,
+        "15": -5.7397323241176155,
+        "20": -8.026848787138933,
+        "5": -4.534106027470492
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "humaneval",
+      "n": 164,
+      "token": {
+        "intercept": -3.5147023529335915,
+        "n": 164,
+        "r2": 0.5936118075921678,
+        "slope": -0.22696203969227777,
+        "slope_stderr": 0.014754177147650836
+      },
+      "char": {
+        "intercept": -5.128446274774404,
+        "n": 164,
+        "r2": 0.5344104826874346,
+        "slope": -0.058656689750532835,
+        "slope_stderr": 0.004301541880140295
+      },
+      "probability_ess": 2.1438738625405787,
+      "horizon": {
+        "10": -5.008668732102749,
+        "15": -6.799003438652967,
+        "20": -8.215361313999077,
+        "25": -9.597117383979866,
+        "30": -10.686384181806277,
+        "40": -13.01863555723267,
+        "5": -3.168119768423763,
+        "50": -15.928099223936785
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "mbpp",
+      "n": 257,
+      "token": {
+        "intercept": -4.718081325287526,
+        "n": 257,
+        "r2": 0.7568577929604507,
+        "slope": -0.3445224919375777,
+        "slope_stderr": 0.012228424975092361
+      },
+      "char": {
+        "intercept": -6.517480221825818,
+        "n": 257,
+        "r2": 0.6222910534689783,
+        "slope": -0.09727214374525152,
+        "slope_stderr": 0.004745699710444807
+      },
+      "probability_ess": 1.5356610856591026,
+      "horizon": {
+        "10": -6.777652812050626,
+        "15": -10.09888928843563,
+        "20": -12.33180714815115,
+        "25": -14.21400058020934,
+        "30": -16.20317865090943,
+        "40": -19.363634994659016,
+        "5": -2.4907494220320037,
+        "50": -23.25015070301585
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "quixbugs",
+      "n": 40,
+      "token": {
+        "intercept": -5.283691460315509,
+        "n": 40,
+        "r2": 0.27059723704469985,
+        "slope": -0.3048693942993487,
+        "slope_stderr": 0.0811977607806186
+      },
+      "char": {
+        "intercept": -4.232510636290796,
+        "n": 40,
+        "r2": 0.4029125351839682,
+        "slope": -0.11397994420752645,
+        "slope_stderr": 0.022508690474332845
+      },
+      "probability_ess": 1.3912256345211376,
+      "horizon": {
+        "10": -8.410937171392474,
+        "15": -8.831001190579842,
+        "20": -13.114043948059,
+        "5": -6.233650091208224
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "humaneval",
+      "n": 164,
+      "token": {
+        "intercept": -2.5933500600173076,
+        "n": 164,
+        "r2": 0.5582430915790438,
+        "slope": -0.16501282099323192,
+        "slope_stderr": 0.011532943859519815
+      },
+      "char": {
+        "intercept": -3.587482211582146,
+        "n": 164,
+        "r2": 0.526885823504684,
+        "slope": -0.0436312638842491,
+        "slope_stderr": 0.00324836640481337
+      },
+      "probability_ess": 6.332473575067676,
+      "horizon": {
+        "10": -3.9445776282210283,
+        "15": -5.228194126074092,
+        "20": -6.2490598641193476,
+        "25": -7.3817237175206,
+        "30": -8.413056822125075,
+        "40": -10.002026218442754,
+        "5": -2.588911842117782,
+        "50": -11.982139069804125
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "mbpp",
+      "n": 257,
+      "token": {
+        "intercept": -7.496852598086463,
+        "n": 257,
+        "r2": 0.5227758384264958,
+        "slope": -0.21322107090895087,
+        "slope_stderr": 0.012757438642900408
+      },
+      "char": {
+        "intercept": -7.750444281706386,
+        "n": 257,
+        "r2": 0.511028870838456,
+        "slope": -0.06571714858824063,
+        "slope_stderr": 0.0040255711937695155
+      },
+      "probability_ess": 1.046440032478121,
+      "horizon": {
+        "10": -6.642066396125207,
+        "15": -9.453523181223419,
+        "20": -11.153356154721958,
+        "25": -12.711605563260786,
+        "30": -14.236403477969521,
+        "40": -16.37798618594395,
+        "5": -2.6672412678489494,
+        "50": -18.873049399110972
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "quixbugs",
+      "n": 40,
+      "token": {
+        "intercept": -4.553572840147611,
+        "n": 40,
+        "r2": 0.20440958984180002,
+        "slope": -0.20595147947774414,
+        "slope_stderr": 0.0659124195429257
+      },
+      "char": {
+        "intercept": -3.2408248854300314,
+        "n": 40,
+        "r2": 0.44435816715423504,
+        "slope": -0.09303615800882678,
+        "slope_stderr": 0.016876829135268813
+      },
+      "probability_ess": 1.6842939565415838,
+      "horizon": {
+        "10": -6.454291335287436,
+        "15": -6.599667415351696,
+        "20": -9.8176469020636,
+        "5": -5.260802504390266
+      }
+    }
+  ],
+  "mismatch": [
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "humaneval",
+      "cos_fq_clean_vs_corrupted": 0.2693358816583671,
+      "cos_vcpo_clean_vs_corrupted": 0.1760463492464975,
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-0.8B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "mbpp",
+      "cos_fq_clean_vs_corrupted": 0.34791954994103613,
+      "cos_vcpo_clean_vs_corrupted": 0.1509852563673391,
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-0.8B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-0.8B",
+      "dataset": "quixbugs",
+      "cos_fq_clean_vs_corrupted": 0.5115635616447074,
+      "cos_vcpo_clean_vs_corrupted": 0.20544728297400508,
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-0.8B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "humaneval",
+      "cos_fq_clean_vs_corrupted": 0.22648855667259188,
+      "cos_vcpo_clean_vs_corrupted": 0.14039351134244393,
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-2B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "mbpp",
+      "cos_fq_clean_vs_corrupted": 0.27402904228292657,
+      "cos_vcpo_clean_vs_corrupted": 0.17663577280018608,
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-2B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "dataset": "quixbugs",
+      "cos_fq_clean_vs_corrupted": 0.4321988303793156,
+      "cos_vcpo_clean_vs_corrupted": 0.2674329403177315,
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-2B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "humaneval",
+      "cos_fq_clean_vs_corrupted": 0.18766159833801768,
+      "cos_vcpo_clean_vs_corrupted": 0.04603174256779329,
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-4B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "mbpp",
+      "cos_fq_clean_vs_corrupted": 0.2038665155927271,
+      "cos_vcpo_clean_vs_corrupted": 0.12752100686050918,
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-4B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "dataset": "quixbugs",
+      "cos_fq_clean_vs_corrupted": 0.41133362413396185,
+      "cos_vcpo_clean_vs_corrupted": 0.15553461998123208,
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-4B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "humaneval",
+      "cos_fq_clean_vs_corrupted": 0.24025471406040871,
+      "cos_vcpo_clean_vs_corrupted": 0.05987817598796766,
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-9B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "mbpp",
+      "cos_fq_clean_vs_corrupted": 0.20353602230126455,
+      "cos_vcpo_clean_vs_corrupted": 0.1233446083171448,
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-9B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "dataset": "quixbugs",
+      "cos_fq_clean_vs_corrupted": 0.3885453869755569,
+      "cos_vcpo_clean_vs_corrupted": 0.1228134726777595,
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "Qwen/Qwen3.5-9B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "humaneval",
+      "cos_fq_clean_vs_corrupted": 0.29949832679319904,
+      "cos_vcpo_clean_vs_corrupted": 0.1684175309713581,
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "allenai/OLMo-2-1124-7B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "mbpp",
+      "cos_fq_clean_vs_corrupted": 0.26539593857709043,
+      "cos_vcpo_clean_vs_corrupted": 0.0795700369748387,
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "allenai/OLMo-2-1124-7B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "OLMo-2-1124-7B",
+      "dataset": "quixbugs",
+      "cos_fq_clean_vs_corrupted": 0.4646548064232518,
+      "cos_vcpo_clean_vs_corrupted": 0.28273200744071375,
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "allenai/OLMo-2-1124-7B",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "5.17.0"
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "humaneval",
+      "cos_fq_clean_vs_corrupted": 0.07522345827503042,
+      "cos_vcpo_clean_vs_corrupted": 0.052605366863786245,
+      "meta": {
+        "dataset": "humaneval",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "THUDM/glm-4-9b",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "4.46.3"
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "mbpp",
+      "cos_fq_clean_vs_corrupted": 0.5843787385990978,
+      "cos_vcpo_clean_vs_corrupted": 0.33241343681564806,
+      "meta": {
+        "dataset": "mbpp",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "THUDM/glm-4-9b",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "4.46.3"
+      }
+    },
+    {
+      "model": "glm-4-9b",
+      "dataset": "quixbugs",
+      "cos_fq_clean_vs_corrupted": 0.48896398154151627,
+      "cos_vcpo_clean_vs_corrupted": 0.1498916066392479,
+      "meta": {
+        "dataset": "quixbugs",
+        "device": "NVIDIA A800 80GB PCIe",
+        "dtype": "bfloat16",
+        "experiment": "e2c_corruption",
+        "extra": {
+          "corruption": "cyclic certificate swap (each task gets another task's solution)",
+          "n_tasks": 32,
+          "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+        },
+        "model": "THUDM/glm-4-9b",
+        "seed": 0,
+        "torch_version": "2.5.1+cu124",
+        "transformers_version": "4.46.3"
+      }
+    }
+  ],
+  "manifest": [
+    {
+      "path": "data/results/verified/e1formal_OLMo-2-1124-7B_seed0.json",
+      "sha256": "5b776516824b5dbd503c161998eae163ff0981d07ddb96203c8a9994882f8b41"
+    },
+    {
+      "path": "data/results/verified/e1formal_OLMo-2-1124-7B_seed0_mbpp.json",
+      "sha256": "948c7967201ae514640561ece8aeda386341ea35c2196f87d885fc0d342739f8"
+    },
+    {
+      "path": "data/results/verified/e1formal_OLMo-2-1124-7B_seed1.json",
+      "sha256": "576d5698997e52b71481e266ef5f198b578de83546d694522b9c5d48df7bc736"
+    },
+    {
+      "path": "data/results/verified/e1formal_OLMo-2-1124-7B_seed1_mbpp.json",
+      "sha256": "d18d78e5f5d025929993692cf01e23789e90d853001afc35aeadd7bea9dbd15f"
+    },
+    {
+      "path": "data/results/verified/e1formal_OLMo-2-1124-7B_seed2.json",
+      "sha256": "044aee4036c9c16a8e7f9495895c51a2e588be40add5aa50a9aac550505d6809"
+    },
+    {
+      "path": "data/results/verified/e1formal_OLMo-2-1124-7B_seed2_mbpp.json",
+      "sha256": "df08923e255201c1f8e682532c20b50253a1e3335e4a4d008fddb9aaec1d12ef"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-0.8B_seed0.json",
+      "sha256": "a667cb759f56bc505a293f5354150c4d7ae4f8828284a4c0e94b440993577216"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-0.8B_seed0_mbpp.json",
+      "sha256": "1791e38679a6597d40c5afcee11437c2babb4f42451f60cc4526eb96451e8b3e"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-0.8B_seed0_mbpp_smoke.json",
+      "sha256": "997636cfd184a65b64a609acbe1b408af369044e3a11ead4e52cacd350cbce7a"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-0.8B_seed0_mbpp_smoke2.json",
+      "sha256": "519103b143c8d2c4a6c31bda24d103602d0f3f2d470c6ca133c84a4fba9f9053"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-0.8B_seed1.json",
+      "sha256": "7d2316f2f8ea52b6f4dfd0d49454ea24c35ec1ca10215953f1cab82e7ec2c4a5"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-0.8B_seed1_mbpp.json",
+      "sha256": "a38345ec815601e5005cebf8163484cd5cdd523442ced31362bdb8cc81c99f35"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-0.8B_seed2.json",
+      "sha256": "06173f19d8efa68282752949e61b806aec3a6f4b914e899f0647c9744c4eae61"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-0.8B_seed2_mbpp.json",
+      "sha256": "6a7b27d0a085438d70991f29de1e2f6d31fd0f6a3e48c45d7d5fbb8fcd1066e9"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-2B_seed0.json",
+      "sha256": "8776644361c6a0c1d5a4f0c79ef5b13a03c1fc109cd82bc15df69ea70e6edb1e"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-2B_seed0_mbpp.json",
+      "sha256": "bac9bfc25dbfb9aca52f234f69b56e0ed868b96c26b56893aad8db76e8a2faae"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-2B_seed1.json",
+      "sha256": "b544c57c0b8f7aff85df3616a87f317a9eddb728d6b13df96c2428000ab77d62"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-2B_seed1_mbpp.json",
+      "sha256": "58abd1050babda3199fa47748e051a06ba01f5b57c0c0e64fd6b1641bea157ba"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-2B_seed2.json",
+      "sha256": "2bcd8a8713af1a892cbd5fdb3ff6807770080efdda326ed0f51416bdf1a8d346"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-2B_seed2_mbpp.json",
+      "sha256": "d009461ad4517f4dee33be9a69edcb697bc90a33706780b935352a2a96dcba43"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-4B_seed0.json",
+      "sha256": "f45cfa2dd6d9b622414a25760ae59b2c46b401ce93531ce47ec530b439e417c4"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-4B_seed0_mbpp.json",
+      "sha256": "33c816050d47cc5ef549cd839d6d06ff22b8addf08747d6d49ee945d1f4a475f"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-4B_seed1.json",
+      "sha256": "902a748c6445dfab8c02617008a88dfddfb14508310f1b698cd4f3183d189cda"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-4B_seed1_mbpp.json",
+      "sha256": "722786c70882660692702405e7c5564c6e0887d92bb5508ec18255d4bf889a2f"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-4B_seed2.json",
+      "sha256": "d16a754c38ab9b5da4cc40e8410666675240e60960b4c1f8d04ae28e190bd1c8"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-4B_seed2_mbpp.json",
+      "sha256": "ed09f2295e15e36cb2e80fd3f24e54b13bf18b1b2a18643c4a454f368d443888"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-9B_seed0.json",
+      "sha256": "fdf60d8a68c55ba6b33b27c5d41d139432cff1f2423f493a432a1bfa64a6818b"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-9B_seed0_mbpp.json",
+      "sha256": "db2c2a6d9114c62d3aab238657838dea68105243273ae4bdb0cc81301bf043c3"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-9B_seed1.json",
+      "sha256": "9bb4ef21cf5af506db1fa465dafd25033ca599713002479ee9c6d9971fb5878e"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-9B_seed1_mbpp.json",
+      "sha256": "8b6d69714c476d0a0507a47d1d6f4a45073521715d42c5b9d20be84eb6941dd6"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-9B_seed2.json",
+      "sha256": "e74257c5e19136112d2d49ba4506be36a0444fe87582cc577f5e0551ffce3afd"
+    },
+    {
+      "path": "data/results/verified/e1formal_Qwen3.5-9B_seed2_mbpp.json",
+      "sha256": "07fe65b3f1ae4c3cfb6d98017269cbf5b01de1021e5a60525c3f7f187a1d2f5a"
+    },
+    {
+      "path": "data/results/verified/e1formal_glm-4-9b_seed0.json",
+      "sha256": "4c43caceb0ff3220b2f2454fefbec02b21da9f11fe106e1a5c3c80fff9ce66db"
+    },
+    {
+      "path": "data/results/verified/e1formal_glm-4-9b_seed0_mbpp.json",
+      "sha256": "ff723dfde8ffa81b49792cf84e26fe86254974b1a7d61446a060245f0588f5d9"
+    },
+    {
+      "path": "data/results/verified/e1formal_glm-4-9b_seed1.json",
+      "sha256": "15d33af9f5ea7a4839788e74915f5dea02c631410324cfc6c5700d4315d0ea41"
+    },
+    {
+      "path": "data/results/verified/e1formal_glm-4-9b_seed1_mbpp.json",
+      "sha256": "2389fbac96097efd236c09deb3340bb2a1f7f47d270a0ad381cebd266cc54b60"
+    },
+    {
+      "path": "data/results/verified/e1formal_glm-4-9b_seed2.json",
+      "sha256": "2043a11a0677f3f3bda5fba296fc5a2c3e0f47b6f37e68664cced4c3b7e04c0d"
+    },
+    {
+      "path": "data/results/verified/e1formal_glm-4-9b_seed2_mbpp.json",
+      "sha256": "e314179410810a879b13484b364495d66d4973b63843231b78998bba0977a6f6"
+    },
+    {
+      "path": "data/results/verified/e2b_OLMo-2-1124-7B_seed0.json",
+      "sha256": "85c05f8e0d6abe8fbfb7650291ff5e71e42e27d0ba3c5889e70c7c001745b4b3"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-0.8B_seed0.json",
+      "sha256": "35dfe9c5855e7e84882835c4262fd94dc6a4073dc8f4de6ba75d429fbccaaf4c"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-0.8B_seed1.json",
+      "sha256": "07bb9343bd9bf39ef5f16cf07f0e5802d1d5686dd741d2fad45faa30f50897a7"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-0.8B_seed2.json",
+      "sha256": "3715c0736a4298ca942efdfd7da873b27b77380d9a8a0775146b51a91e4075fb"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-2B_seed0.json",
+      "sha256": "cd80e1b85c46414ee3bdadaeff743c2042c036ca8ec62ac0f18bcb6dd5410070"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-2B_seed1.json",
+      "sha256": "4118997f913461a8b58098ea0c5ec2ee1974b13b81253fdbb6b02c7f9a7f3b5a"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-2B_seed2.json",
+      "sha256": "8c42957e421718e0e6aa3eb49b0d3b711466486d9a9a0c4f8b16501477c0a155"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-4B_seed0.json",
+      "sha256": "8e32ee5c4dc99c4148df50dffa82f1911589ca65eb2b3aa4c5031cca62c2aaf4"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-4B_seed1.json",
+      "sha256": "60ddf2431bbb74ccae38393fdd0dd81f1b3848c0cc0c30a7e8c06a8797505a9f"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-4B_seed2.json",
+      "sha256": "777c05837c8cd3814f0ff3ccf9885926fa24e6dfdf801a1a8411bd3d3ebbf91f"
+    },
+    {
+      "path": "data/results/verified/e2b_Qwen3.5-9B_seed0.json",
+      "sha256": "2bd0c880af80da06e5fdac32706eb94b09a80b0d25f9d8774677cc7b0f55e579"
+    },
+    {
+      "path": "data/results/verified/e2b_cos_Qwen3.5-0.8B_seed0.json",
+      "sha256": "2bd6dc02094949c9ef929981be2c6e756c350692ee4c47b193c8bbddce54c22d"
+    },
+    {
+      "path": "data/results/verified/e2b_cos_Qwen3.5-2B_seed0.json",
+      "sha256": "5c13603508aa123b7f04997b79e4784a3861fcd6983d4437e4c4482149620c1a"
+    },
+    {
+      "path": "data/results/verified/e2b_cos_Qwen3.5-4B_seed0.json",
+      "sha256": "03fd2d54198d049911767a01e234b264b0d0cdb195509808936d9cb32884a5f9"
+    },
+    {
+      "path": "data/results/verified/e2b_cos_Qwen3.5-9B_seed0.json",
+      "sha256": "011f14ac7203b2607db59e8e69b9a480c6d8e2983852a9d94408a8ebf01e7f79"
+    },
+    {
+      "path": "data/results/verified/e2c_OLMo-2-1124-7B.json",
+      "sha256": "5c99cfc3e810451345b4cc9a863b4699830fef8c62e86739a5f653e168716cee"
+    },
+    {
+      "path": "data/results/verified/e2c_OLMo-2-1124-7B_mbpp.json",
+      "sha256": "ff470371d612caacecb7ce09db16f23f5c13203d1cbc9a7f3511e5e48b2e1c0f"
+    },
+    {
+      "path": "data/results/verified/e2c_OLMo-2-1124-7B_quixbugs.json",
+      "sha256": "48e584f2413170e18cbef5cfef8086bd7b4a7c9304c89efdda8fc1ad826bf312"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-0.8B.json",
+      "sha256": "f7b85f1a047ba2280184a79cf50cc6daee4a3fe5aa8ed407f4e939ebc8553a51"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-0.8B_mbpp.json",
+      "sha256": "ff93a32d9d902e0d3cd4bd16384246d720bccc3d7a7dce15d37eb36ca028941b"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-0.8B_quixbugs.json",
+      "sha256": "0554ca36b8373c10a74e2a9640fe29930bd9aa9ea0e0ea1c4b678a1458e61a5f"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-2B.json",
+      "sha256": "b0942bfa2238d04a714b315227faed7494b6d168399f6863b97f38dd4bab1a50"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-2B_mbpp.json",
+      "sha256": "514a458ffe013e2e978650555fde075b9a5e6e3f1d7b4470dcdc3b9087949fea"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-2B_quixbugs.json",
+      "sha256": "33ceab8e752b1501baa00422fe9d66aa96d1743550703e8c557e3de4b5400f11"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-4B.json",
+      "sha256": "bfd76e16b5397acfdbba276cdb705a3f0ae92dac6629cb8e8efec94c4fc422f4"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-4B_mbpp.json",
+      "sha256": "d7125b6974d067893fc713a981ad29c1be9384c780c81259089496c3c2b13d43"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-4B_quixbugs.json",
+      "sha256": "a822593606568241ab58f1a54af1d3f4cdb85d9bc058f1d6baf3297cb79e1278"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-9B.json",
+      "sha256": "51e249bc71368201d78aca869419014a92bcf50f96ce8518bead65f43a597bc7"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-9B_mbpp.json",
+      "sha256": "ed449709c70acce80eff5940cfa8b3d4a00d586121c289b3e56a4e56aacd6cbc"
+    },
+    {
+      "path": "data/results/verified/e2c_Qwen3.5-9B_quixbugs.json",
+      "sha256": "c359cf42d04100a9d923adb5e5ae97f1e71f91c1434e565f5fadd9eaa784b5c5"
+    },
+    {
+      "path": "data/results/verified/e2c_glm-4-9b.json",
+      "sha256": "ac57bbb728835297c6a2affeec8b7724a28684ed42f6d9e81a51640371b7b47f"
+    },
+    {
+      "path": "data/results/verified/e2c_glm-4-9b_mbpp.json",
+      "sha256": "a5acb3bb6b40bc9187421e59f7a80e85234c88ed2d28e5a0c9e978c9a6bdca0c"
+    },
+    {
+      "path": "data/results/verified/e2c_glm-4-9b_quixbugs.json",
+      "sha256": "7aa368d87b05ac77c45dcd342b8c5135d0fb9a94b5f624cd3a2177209606d3f4"
+    },
+    {
+      "path": "data/results/verified/e3_OLMo-2-1124-7B_humaneval.json",
+      "sha256": "304a833e8a053cbf27cd53a162e62357fbfbfa8bbdb4985d41477216266b000c"
+    },
+    {
+      "path": "data/results/verified/e3_OLMo-2-1124-7B_mbpp.json",
+      "sha256": "3b794e0ab4c66d805612984bb4dff0d326a29af00565781fb955bb7a4ee4f8e9"
+    },
+    {
+      "path": "data/results/verified/e3_OLMo-2-1124-7B_quixbugs.json",
+      "sha256": "e1b96638a476439cece55ae87be8faeb6972696c98ccfc9b61478d668261e33b"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-0.8B_humaneval.json",
+      "sha256": "051e1a8399d0a0ca81cb33e8e953bb05aacc914dc6b61390388fc9f164671f35"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-0.8B_mbpp.json",
+      "sha256": "8aeacb7ce5b64948adc28a02de58a26fe1e1196add3309b8322aea1748c9723b"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-0.8B_quixbugs.json",
+      "sha256": "9dc2402683d79494e8df0c03ed6dff771fee72dfe38da472bb05a15d29c4979f"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-2B_humaneval.json",
+      "sha256": "e6931e547dd5a7a23e4f7632ef56d803b7448042e962dc2b3a6b4fc140ca4f0f"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-2B_mbpp.json",
+      "sha256": "d5719c3d63c559c0c689d3d600902abe284f409a1455547217bd487f0667826b"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-2B_quixbugs.json",
+      "sha256": "74db524e25157d241d3f8f9f7c0b6b721a705bda4d9e2cc0beae759c954b3ee8"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-4B_humaneval.json",
+      "sha256": "793bb8b64214a24ef3ed038e990322aa1680cf5b952083f9154c654fbb4c8c5e"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-4B_mbpp.json",
+      "sha256": "df6d6b6c42f208779b7813e6b0b784aa15a96a0afcac8e6208c17ec9cef6b670"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-4B_quixbugs.json",
+      "sha256": "a837f7ce1d2ee62840881e3499acb67fc6f3a08eb613e653fb03a948124cb49d"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-9B_humaneval.json",
+      "sha256": "3f7fdc289012769f579589d7a9b5bdf1b9be330960f7b45993fcfff45d540394"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-9B_mbpp.json",
+      "sha256": "bfb185460b4dd3d40bf69ad977ccc1c4c9f38c2e4e1ebd28f80fa87c22112790"
+    },
+    {
+      "path": "data/results/verified/e3_Qwen3.5-9B_quixbugs.json",
+      "sha256": "c05aadb66e27401db90f31b34b18e9d7e39ecd665b6689c1a951ce32f7c52f5d"
+    },
+    {
+      "path": "data/results/verified/e3_glm-4-9b_humaneval.json",
+      "sha256": "846faeb3eeec5e1d9c81c8a89365f266e9a7f778f8180fdab7db4bfeb56ecac4"
+    },
+    {
+      "path": "data/results/verified/e3_glm-4-9b_mbpp.json",
+      "sha256": "358a2cfdb84d0b66a54587e728e7b5e81a21c505da5373b7114e0554763cf7b2"
+    },
+    {
+      "path": "data/results/verified/e3_glm-4-9b_quixbugs.json",
+      "sha256": "ee8d7c0e36390ee7f6f61b56569c2b7ee85feb0b213976ca23c041c7b3def8ae"
+    },
+    {
+      "path": "data/results/verified/e5_OLMo-2-1124-7B_humaneval.json",
+      "sha256": "85c8323230bbb25753bc823912c933a14f86cc7d711c502da4b287a903f85ea2"
+    },
+    {
+      "path": "data/results/verified/e5_OLMo-2-1124-7B_mbpp.json",
+      "sha256": "29e7c48d4222952bc0c40f62701a0b0a25fac677a0dc153857fdc33075fcbc27"
+    },
+    {
+      "path": "data/results/verified/e5_OLMo-2-1124-7B_quixbugs.json",
+      "sha256": "c79167dc35d49141e5028e0fd357a90639aa39b552f19769158ebcb71dd39616"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-0.8B_humaneval.json",
+      "sha256": "e34af1b8e568bd81b19e4bc67a530474fb9e3233d59289aed34a8ef0ba2798a9"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-0.8B_mbpp.json",
+      "sha256": "5794d120210c72a3275eb6317645fdeb3b63c5339e8aa4b323d289a719cb1143"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-0.8B_quixbugs.json",
+      "sha256": "c9c18b07db287ab975047579ac6fc8a98bf1bd9bf9aff2e8def1e235d9b6dd6f"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-2B_humaneval.json",
+      "sha256": "19ed9a521b34cec40bdb97617743552ae25dffaaef8c9a32592cb0b0577bc74a"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-2B_mbpp.json",
+      "sha256": "15e33a5f3ab45a4b3396b1e4ee1740370194018828243736a53df0a89b24f0da"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-2B_quixbugs.json",
+      "sha256": "b2d8c04d8fdb5727546aa681abf8add57fd49679e79c5df1514f1bfad643290f"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-4B_humaneval.json",
+      "sha256": "f113350160f526a5d10c06009e803c8351fe100c4381c0039ab1cffb37f9430b"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-4B_mbpp.json",
+      "sha256": "9f474581af8c20bb25caf125ed5d489fa61ec24599f3194b1f068a6ba3faee4d"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-4B_quixbugs.json",
+      "sha256": "f565d78d96b5b61841a1f1d03881cc52b8b797aa47bb876adf9d2136617909bc"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-9B_humaneval.json",
+      "sha256": "0924b5258114bfa7898528dc6e25a86efab36f7bd2526ac71349233c3d7b2c0f"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-9B_mbpp.json",
+      "sha256": "172f7e07f985cbdb01066044a26a430c53846c6ce648d1b49aa0ad6233252ac8"
+    },
+    {
+      "path": "data/results/verified/e5_Qwen3.5-9B_quixbugs.json",
+      "sha256": "282258581e9855f0038d263935d65cb4f4c7a6cbbcf5b8b7b9673d1ee74c16f4"
+    },
+    {
+      "path": "data/results/verified/e5_glm-4-9b_humaneval.json",
+      "sha256": "c6bd0b87834d9b89b141789ac17f68420f37611f3cd1ebdc5365cbdf35474043"
+    },
+    {
+      "path": "data/results/verified/e5_glm-4-9b_mbpp.json",
+      "sha256": "457c9978126b3e0cc9859e1d5a7acdd0f1f86ec10034af1b6bd9a228e5c80d4b"
+    },
+    {
+      "path": "data/results/verified/e5_glm-4-9b_quixbugs.json",
+      "sha256": "e18b3259d9a5f83ad5f2b48a6059940689b4b19b3bb1bd64667a557329483624"
+    },
+    {
+      "path": "data/results/verified/e6_OLMo-2-1124-7B.json",
+      "sha256": "a78863acdd9bfed732aa160d76500896e047809fad2c61ed9e346e387450eb2c"
+    },
+    {
+      "path": "data/results/verified/e6_OLMo-2-1124-7B_mbpp.json",
+      "sha256": "4962c8ad0a79d48979e8d7127b1187ba86adb96d39e3d6dbacba78c5936d5e7e"
+    },
+    {
+      "path": "data/results/verified/e6_OLMo-2-1124-7B_quixbugs.json",
+      "sha256": "d9a7ca28993714b28231c00b2e34d5fbf768b9b8876ddb6d59c3d534507e0f26"
+    },
+    {
+      "path": "data/results/verified/e6_OLMo-2-1124-7B_shuf64.json",
+      "sha256": "609c4729d3164e91cf4ca027510145bdd840eb029f116d391c6ac89d74d2c52f"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-0.8B.json",
+      "sha256": "544df76c9ecb3caab3c9e2bd32319a199301205998222a62fe1ac59822e78b88"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-0.8B_mbpp.json",
+      "sha256": "3bc02c5412c7a06b8a4b4aefa05635dc8596a5444b686a36274cc6aa9a9c008f"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-0.8B_quixbugs.json",
+      "sha256": "dca683dfbbc40e2df69abab610780ea101ca9e46ce1b5e7b214040969125fccd"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-0.8B_shuf64.json",
+      "sha256": "5efd05fbd6fcca08ba196c303f489a2aea67486aae17e35aee7772685fac8760"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-2B.json",
+      "sha256": "8ef3221caf7fc93bb95457c38786579b964517e8350306e2ba9160292f2b0994"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-2B_mbpp.json",
+      "sha256": "7f37a98c26f7d9618c161a8bd82f63a5cb0320bde2fb06d0928c22586cc9dd34"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-2B_quixbugs.json",
+      "sha256": "31b1ee019f06c0f1303a1bbd074868697d1dd9d93d48b0fd8bb0d619cbf5687e"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-2B_shuf64.json",
+      "sha256": "3a89a2da759799d1d17e3166bd9a221fdee935a6390ccf06cff6b3b96846a0d2"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-4B.json",
+      "sha256": "44092441deb853e800274218595408058e57b4a1bf6e07c2930329ad6e72fa0d"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-4B_mbpp.json",
+      "sha256": "d7e2ebb26892f9271708a608060b895dff27a289ae35f21d34b010ab25091d61"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-4B_quixbugs.json",
+      "sha256": "a9cb2d4af43e9cf320bc1384ebf7ea24330b0c18b680003ed0b3d56b3a80a9a1"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-4B_shuf64.json",
+      "sha256": "1f7f56727a6a7078451acac311fc91ccd85adda1f592eeff408d881a4efc2fe2"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-9B.json",
+      "sha256": "30ec3323c03f3623b39d7da6c0c80c019ebc652867e4bfcba89d585390ac0aae"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-9B_mbpp.json",
+      "sha256": "fe4388524614201c1c23ed4ae292d3ddb148e04f48b816e3881283933a932dc1"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-9B_quixbugs.json",
+      "sha256": "d72a80de2941faf320e265dbf0a12d7c3d1d5133629afd6b854ec16d51fcf7c5"
+    },
+    {
+      "path": "data/results/verified/e6_Qwen3.5-9B_shuf64.json",
+      "sha256": "40b209134b771cf7d3f7ac015b3619e4de38d3efef6468d611d05761236fca3f"
+    },
+    {
+      "path": "data/results/verified/e6_glm-4-9b.json",
+      "sha256": "0ef43bcadccd4b0d36ff26b2d71c280ebe95c8fe00c29b627ce72686923ece53"
+    },
+    {
+      "path": "data/results/verified/e6_glm-4-9b_mbpp.json",
+      "sha256": "59ea154f67f7f0f22bde08ffe388e8c1a8aa458f681b0798d8258b224bf25ff2"
+    },
+    {
+      "path": "data/results/verified/e6_glm-4-9b_quixbugs.json",
+      "sha256": "533a7b9abe4d116d6e00a067de4c1227bbac14be0756874920908c03d7349aa2"
+    },
+    {
+      "path": "data/results/verified/e6_glm-4-9b_shuf64.json",
+      "sha256": "cea14adb367817a2af505d9734b8c81ad0e6432523273612848ae0b90bba7bca"
+    },
+    {
+      "path": "data/results/verified/e6_length_strata.json",
+      "sha256": "d057d0713cd7f7337ba50f83c81ff1d9b24ace2babd60a33a4ebb0059bf22c43"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-0.8B_seed0_mbpp.json",
+      "sha256": "55eb10327aca000da24e5685442bc40e8bab075605637edcaee5a2f35edd3146"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-0.8B_seed1_mbpp.json",
+      "sha256": "978b30b9bb3da1c813032835665f78bc350f3043ad4c3ba74c8ad6236878b41a"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-0.8B_seed2_mbpp.json",
+      "sha256": "45b2a2d63db1dcb86f623e505c4a23459efd2737f07bfffa571d812aa2857226"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-2B_seed0_mbpp.json",
+      "sha256": "c90aef61d0c4efaa270d1e03e0d288b41b75382aa7ca35131ef10e0763153ae2"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-2B_seed1_mbpp.json",
+      "sha256": "821e89855aacf8c16beaffc33a407cafadf57d10ef67107e80deb1c8fd69c270"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-2B_seed2_mbpp.json",
+      "sha256": "d72e79fa5f5b9fa82c9e3670b8908a12970b840b40525d4bfb6854947d8f3f9a"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-4B_seed0_mbpp.json",
+      "sha256": "ea4d14e1a4e0044bedd0431a2e27bce884f074aba58be242d95fcb8a4a14b3af"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-4B_seed1_mbpp.json",
+      "sha256": "71aefa11cf83fcf80da6eac3abd33f0f8b3c383f3935c140e313a4b674c927da"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-4B_seed2_mbpp.json",
+      "sha256": "4ebfc5bf6021deabfbdc09a5a04abde1e5d6f1b21c36ee757337b2ea4fceb33f"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-9B_seed0.json",
+      "sha256": "085c9ee84a8e0950ce3ca970c8170ad129e97d18754f2a4e003a27bae3af7ae6"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-9B_seed0_mbpp.json",
+      "sha256": "e6119e27a6dc357311c275340bb779f1c4f32de63bddb59087c7b94f2250ce78"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-9B_seed1.json",
+      "sha256": "aba1e781496f1dd301d5714917a16b6b48babcb17f279d261340db281921cda1"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-9B_seed1_mbpp.json",
+      "sha256": "eadba61d3a3a31dcd607860c1d576faf2df33ff435755dc89ebbe9ebb708368e"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-9B_seed2.json",
+      "sha256": "7c632043746b5b4c8c42a3b00572aafbe6e17fc4aca82d687f9e865e4ff3bb6f"
+    },
+    {
+      "path": "data/results/verified/kernel/e2b_Qwen3.5-9B_seed2_mbpp.json",
+      "sha256": "9c980b4107ff4d2caa0166811f4fe51fcc0feac946835f0d897be53cd632719a"
+    }
+  ]
+}

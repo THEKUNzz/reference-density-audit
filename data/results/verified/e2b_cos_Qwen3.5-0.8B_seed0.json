@@ -1,0 +1,28 @@
+{
+  "cos_fq_vs_certonly_full": 0.9999796422868793,
+  "cos_fq_vs_uniform_first16": 0.521262279066693,
+  "cos_fq_vs_uniform_full": 0.6086128354283523,
+  "meta": {
+    "dataset": "humaneval",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e2b_cos_full",
+    "extra": {
+      "chunk": 4,
+      "first16": 16,
+      "n_R0": 103,
+      "n_R1": 40,
+      "n_rollouts": 4,
+      "n_train": 40,
+      "note": "cos on the FULL train batch via chunked gradient accumulation; uniform = existing 'SFT' def (mixed batch, no reward weighting); certonly = self-check, analytically 1 under binary reward (asserted)"
+    },
+    "model": "Qwen/Qwen3.5-0.8B",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "5.17.0"
+  },
+  "model": "Qwen/Qwen3.5-0.8B",
+  "n_R0": 103,
+  "n_R1": 40,
+  "seed": 0
+}

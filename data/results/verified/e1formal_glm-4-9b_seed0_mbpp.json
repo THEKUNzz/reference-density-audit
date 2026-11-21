@@ -1,0 +1,30 @@
+{
+  "all_fail_fraction": 0.275,
+  "grad_grpo_norm": 0.0,
+  "grad_vcpo_norm": 4960.0,
+  "meta": {
+    "dataset": "mbpp",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e1_zero_gradient_formal",
+    "extra": {
+      "all_fail_fraction": 0.275,
+      "group_size": 4,
+      "n_all_fail": 11,
+      "n_harness_error": 0,
+      "n_tasks": 40,
+      "n_test_failed": 90,
+      "n_timeout": 0,
+      "note": "real sampling + real mbpp test execution"
+    },
+    "model": "THUDM/glm-4-9b",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "4.46.3"
+  },
+  "n_all_fail": 11,
+  "n_groups": 40,
+  "n_harness_error": 0,
+  "n_test_failed": 90,
+  "n_timeout": 0
+}

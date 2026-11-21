@@ -1,0 +1,146 @@
+{
+  "OLMo-2-1124-7B/humaneval": {
+    "B": 64,
+    "n_certificates": 32,
+    "Bp_max": 0.12155360113027368,
+    "ess_weights_p": 1.2050597918739048,
+    "ess_with_balance_denominator": 1.2296136816514074,
+    "rel_change": 0.020375660978050325
+  },
+  "Qwen3.5-0.8B/humaneval": {
+    "B": 64,
+    "n_certificates": 32,
+    "Bp_max": 0.5616075447264838,
+    "ess_weights_p": 1.04378832327982,
+    "ess_with_balance_denominator": 1.0678963680487055,
+    "rel_change": 0.023096679883458204
+  },
+  "Qwen3.5-2B/humaneval": {
+    "B": 64,
+    "n_certificates": 32,
+    "Bp_max": 0.18442451116974162,
+    "ess_weights_p": 1.5087300743489767,
+    "ess_with_balance_denominator": 1.5872920267038724,
+    "rel_change": 0.052071575751411636
+  },
+  "Qwen3.5-4B/humaneval": {
+    "B": 64,
+    "n_certificates": 32,
+    "Bp_max": 0.14553105316836823,
+    "ess_weights_p": 1.7351399261119673,
+    "ess_with_balance_denominator": 1.8141638064441254,
+    "rel_change": 0.04554323207191224
+  },
+  "Qwen3.5-9B/humaneval": {
+    "B": 64,
+    "n_certificates": 32,
+    "Bp_max": 0.3373643646349915,
+    "ess_weights_p": 2.934484311195379,
+    "ess_with_balance_denominator": 3.1265712418911127,
+    "rel_change": 0.06545849639164913
+  },
+  "glm-4-9b/humaneval": {
+    "B": 64,
+    "n_certificates": 32,
+    "Bp_max": 5.611341662326758,
+    "ess_weights_p": 1.1365539716405078,
+    "ess_with_balance_denominator": 1.8253315733327213,
+    "rel_change": 0.606022783676545
+  },
+  "OLMo-2-1124-7B/mbpp": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 1.7581542600389582e-07,
+    "ess_weights_p": 1.0000036372990888,
+    "ess_with_balance_denominator": 1.0000036372997283,
+    "rel_change": 6.394884621840902e-13
+  },
+  "Qwen3.5-0.8B/mbpp": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 4.235644942932637e-06,
+    "ess_weights_p": 1.0000000009654038,
+    "ess_with_balance_denominator": 1.0000000009654082,
+    "rel_change": 4.440892098500626e-15
+  },
+  "Qwen3.5-2B/mbpp": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 4.033081022879704e-05,
+    "ess_weights_p": 1.000000008911465,
+    "ess_with_balance_denominator": 1.0000000089118242,
+    "rel_change": 3.5926817076870066e-13
+  },
+  "Qwen3.5-4B/mbpp": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 8.131670506819097e-05,
+    "ess_weights_p": 1.0000000478168298,
+    "ess_with_balance_denominator": 1.0000000478207183,
+    "rel_change": 3.888445121447148e-12
+  },
+  "Qwen3.5-9B/mbpp": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 4.369946769497041e-05,
+    "ess_weights_p": 1.0000018286566024,
+    "ess_with_balance_denominator": 1.0000018287365133,
+    "rel_change": 7.991074468804982e-11
+  },
+  "glm-4-9b/mbpp": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 9.030933482007397e-06,
+    "ess_weights_p": 1.0000059223897841,
+    "ess_with_balance_denominator": 1.0000059224432687,
+    "rel_change": 5.348432807750214e-11
+  },
+  "OLMo-2-1124-7B/quixbugs": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 0.00033129202946751736,
+    "ess_weights_p": 2.098347945255763,
+    "ess_with_balance_denominator": 2.098525842201919,
+    "rel_change": 8.477952694074808e-05
+  },
+  "Qwen3.5-0.8B/quixbugs": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 0.0920299158526965,
+    "ess_weights_p": 1.2089684330862223,
+    "ess_with_balance_denominator": 1.2261069108180855,
+    "rel_change": 0.014176116813995332
+  },
+  "Qwen3.5-2B/quixbugs": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 0.2024364746004829,
+    "ess_weights_p": 1.5482481533360577,
+    "ess_with_balance_denominator": 1.6399357415576092,
+    "rel_change": 0.05922021481116535
+  },
+  "Qwen3.5-4B/quixbugs": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 0.27888796923704967,
+    "ess_weights_p": 1.6946037912623768,
+    "ess_with_balance_denominator": 1.8434508552573983,
+    "rel_change": 0.08783590876079628
+  },
+  "Qwen3.5-9B/quixbugs": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 0.46478059603314276,
+    "ess_weights_p": 1.348608015011695,
+    "ess_with_balance_denominator": 1.4760624002902583,
+    "rel_change": 0.09450810306615143
+  },
+  "glm-4-9b/quixbugs": {
+    "B": 16,
+    "n_certificates": 8,
+    "Bp_max": 0.0015934610696038934,
+    "ess_weights_p": 2.0429460495526635,
+    "ess_with_balance_denominator": 2.0436681495582154,
+    "rel_change": 0.00035346014433912387
+  }
+}

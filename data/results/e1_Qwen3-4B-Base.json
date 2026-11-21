@@ -1,0 +1,20 @@
+{
+  "grad_grpo_norm": 0.0,
+  "grad_vcpo_norm": 470.0,
+  "meta": {
+    "dataset": "humaneval",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e1_zero_gradient",
+    "extra": {
+      "all_fail": true,
+      "n_tasks": 16,
+      "note": "on-policy greedy rollouts all marked R=0 (all-fail group)"
+    },
+    "model": "Qwen/Qwen3-4B-Base",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "5.17.0"
+  },
+  "norm_ratio": Infinity
+}

@@ -1,0 +1,45 @@
+{
+  "alignment": {
+    "edge_opd": {
+      "cos_with_grad_Fq": 0.9016241416853232,
+      "cos_with_grad_SFT": 0.9113068132208845,
+      "cos_with_grad_VCPO": 0.3261086743259312,
+      "implemented": true
+    },
+    "hsd": {
+      "cos_with_grad_Fq": 0.269700859773512,
+      "cos_with_grad_SFT": 0.30061174649075817,
+      "cos_with_grad_VCPO": 0.030797271663623182,
+      "implemented": true
+    },
+    "opid": {
+      "cos_with_grad_Fq": 0.6648845678496894,
+      "cos_with_grad_SFT": 0.6635052802658525,
+      "cos_with_grad_VCPO": 0.09613780633080231,
+      "implemented": true
+    },
+    "vcpo": {
+      "cos_with_grad_Fq": 0.44861683284339565,
+      "cos_with_grad_SFT": 0.4956732229810307,
+      "cos_with_grad_VCPO": 1.0,
+      "implemented": true
+    }
+  },
+  "meta": {
+    "dataset": "humaneval",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e6_alignment",
+    "extra": {
+      "edge_opd_mask_keep_rate": 0.43855693348365277,
+      "n_reward_0": 16,
+      "n_reward_1": 16,
+      "n_tasks": 32,
+      "scope": "update rules only, not the authors' full systems"
+    },
+    "model": "Qwen/Qwen3-8B-Base",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "5.3.0"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "alignment": {
+    "edge_opd": {
+      "cos_with_grad_Fq": 0.14321721689530126,
+      "cos_with_grad_SFT": 0.15355843029103144,
+      "cos_with_grad_VCPO": -0.006684340697772548,
+      "implemented": true
+    },
+    "hsd": {
+      "cos_with_grad_Fq": 0.21866338790978426,
+      "cos_with_grad_SFT": 0.21336873131884912,
+      "cos_with_grad_VCPO": -0.07291797518025742,
+      "implemented": true
+    },
+    "opid": {
+      "cos_with_grad_Fq": 0.05417915657748284,
+      "cos_with_grad_SFT": 0.03996201469705656,
+      "cos_with_grad_VCPO": -0.018699888330565413,
+      "implemented": true
+    },
+    "vcpo": {
+      "cos_with_grad_Fq": 0.1965535230688214,
+      "cos_with_grad_SFT": 0.1961336782915317,
+      "cos_with_grad_VCPO": 1.0,
+      "implemented": true
+    }
+  },
+  "meta": {
+    "dataset": "humaneval",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e6_alignment",
+    "extra": {
+      "edge_opd_mask_keep_rate": 0.6125330979699912,
+      "n_reward_0": 8,
+      "n_reward_1": 8,
+      "n_tasks": 16,
+      "scope": "update rules only, not the authors' full systems"
+    },
+    "model": "THUDM/glm-4-9b",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "4.46.3"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "cos_fq_clean_vs_corrupted": 0.2693358816583671,
+  "cos_vcpo_clean_vs_corrupted": 0.1760463492464975,
+  "meta": {
+    "dataset": "humaneval",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e2c_corruption",
+    "extra": {
+      "corruption": "cyclic certificate swap (each task gets another task's solution)",
+      "n_tasks": 32,
+      "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+    },
+    "model": "Qwen/Qwen3.5-0.8B",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "5.17.0"
+  }
+}

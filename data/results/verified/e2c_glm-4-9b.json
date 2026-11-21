@@ -1,0 +1,19 @@
+{
+  "cos_fq_clean_vs_corrupted": 0.07522345827503042,
+  "cos_vcpo_clean_vs_corrupted": 0.052605366863786245,
+  "meta": {
+    "dataset": "humaneval",
+    "device": "NVIDIA A800 80GB PCIe",
+    "dtype": "bfloat16",
+    "experiment": "e2c_corruption",
+    "extra": {
+      "corruption": "cyclic certificate swap (each task gets another task's solution)",
+      "n_tasks": 32,
+      "prediction": "VCPO robust (cos~1), F_q sensitive (cos drops)"
+    },
+    "model": "THUDM/glm-4-9b",
+    "seed": 0,
+    "torch_version": "2.5.1+cu124",
+    "transformers_version": "4.46.3"
+  }
+}
